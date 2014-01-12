@@ -85,7 +85,8 @@ mkdir(folder)
  
 Xb = X(:,:,2);
 S = [];XX=[];
-for irho=[0 0.3 0.6 1]      %to create a evolution from colors of X1 to X2
+%for irho=[0 0.3 0.6 1]      %to create a evolution from colors of X1 to X2
+    irho = 0.6;
     rho = [irho 1-irho];    %to compute between 3 images, need to have a rho with 3 values  
     
     options.ksum = k;       % if we want OT, this k = 1, ksum_min=1
@@ -130,8 +131,20 @@ for irho=[0 0.3 0.6 1]      %to create a evolution from colors of X1 to X2
         disp(['saving result in ' namefile '.png']);
         saveas(h,['./' strrep(namefile,'.','') '.png']);
        % print('-depsc',['./' strrep(namefile,'.','') '.eps']);
-    end
+%    end
    
+    %%L2 norm
+        [Sigma2,err] = computeSigma_RelaxRegOT_qp2(V,Xb,Gv,k_bar,lambda_bar,M,optionsColor);
+        u2 = Sigma2*Xb;
+    
+        h=plotResults(Xb,V,Sigma2, options);xlabel('R');ylabel('G');zlabel('B');
+        
+        h=figure;imshow(h1(quantify(Y0,X(:,:,r),u2)));
+        namefile=[folder '/result_' name num2str(r) 'rho' num2str(rho(1)) ];
+    
+        disp(['saving result in ' namefile '.png']);
+        saveas(h,['./' strrep(namefile,'.','') '_L2.png']);
+     
   
    
 end %end for rho 

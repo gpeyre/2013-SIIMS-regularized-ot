@@ -77,7 +77,6 @@ end
 
 if (displayU)
      u = Sigma*y;
-    
      myplot(u,'g');
 end 
 

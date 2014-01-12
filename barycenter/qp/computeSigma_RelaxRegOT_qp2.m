@@ -70,7 +70,7 @@ C = [sparse(Cost(:)); sparse(P*d,1)];
 % Setup Mosek variables.
 prob.qosubi = N*N+1:N*N+P*d;
 prob.qosubj = N*N+1:N*N+P*d;
-prob.qoval  = ones(P*d,1);
+prob.qoval  = lambda*ones(P*d,1);
 
 prob.c = C;
 prob.a = sparse(A);
