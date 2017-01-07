@@ -1,0 +1,64 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discrete Optimal Transport}
+
+Monge's original formulation of the OT problem corresponds to minimizing the cost for transporting a distribution $\mu_X$ onto another distribution $\mu_Y$ using a map $T$
+\eql{ 
+	\min_{T} \int_X c(x,T(x)) \d \mu_X(x),   
+	\qwhereq
+	 T\#\mu_X=\mu_Y.
+}
+Here, $\mu_X,\mu_Y$ are measures in $\RR^d$, $T: \RR^d \rightarrow \RR^d$ is a $\mu_X$-measurable function, $c : \RR^d \times \RR^d \rightarrow \RR^+$ is a $\mu_X \otimes \mu_Y$-measurable function, and $\#$ is the push forward operator. 
+
+We focus here on the case where the measures are discrete, have the same number of points, and all points have the same mass, thus 
+\eq{
+	\mu_X = \frac{1}{N} \sum_{i=1}^{N} \delta_{X_i} 
+	\qandq
+	\mu_Y = \frac{1}{N} \sum_{j=1}^{N} \delta_{Y_j},
+}
+where $\delta_x$ is the Dirac measure at location $x \in \RR^d$, and where the position of the supporting points are $X = (X_i)_{i=1}^N$, and $Y = (Y_j)_{j=1}^N$, where  $X_i,Y_j \in \RR^d$. In this context, the transport between $X$ and $Y$ is a one-to-one assignment,  i.e. 
+% \todo{It was written $T(X_i) = X_{\sigma(i)}$ ! } 
+$T(X_i) = Y_{\sigma(i)}$ where $\sigma$ is a permutation of $\{1,\ldots,N\}$, which can be encoded using a permutation matrix $\Sigma$ such that
+\eq{ \Sigma_{i,j} = 
+ 	\choice{ 
+		1 \qifq j=\sigma(i), \\ 
+		0 \quad \text{otherwise}.  
+	}
+} 
+A more compact way to denote the transport is $T(X_i)=\left(\Sig Y\right)_i, \forall i=\{1,\ldots,N\}$. Introducing the cost matrix
+\eq{
+	C_{X,Y} \in \RR^{N \times N}
+	\qwhereq
+	\foralls (i,j) \in \{1,\ldots,N\}^2, \quad (C_{X,Y})_{i,j} = c(X_i,Y_j),
+}
+this permutation matrix $\Sig$ is thus the solution to the following optimization problem
+\eql{
+	\umin{\Sig \in \Perm}  
+		\dotp{C_{X,Y}}{\Sigma} = \sum_{i,j=1}^N c(X_i,Y_j)  \Sig_{i,j},
+\label{eqW}} 
+where $\Perm$ is the set of permutation matrices  
+\eq{
+	\Perm = \enscond{\Sig \in \RR^{N \times N}}{ \Sig^* \U = \U, \Sig \U = \U, \Sig_{i,j} \in \{0,1\}},
+} 
+see~\cite{Villani03} for more details. We have denoted $\U=(1,\ldots,1)^* \in  \RR^N$, and $A^*$ as the adjoint of the matrix $A$, that for real matrices amounts to the transpose operation.  
+ 
+
+In the special case where 
+\eq{
+	\left(C_{X,Y}\right)_{i,j} = c(X_i,Y_j)=\norm{X_i-Y_j}^{\al}
+} where $\norm{\cdot}$ is the Euclidean norm in $\RR^d$ and $\al \ge 1$,  the value of the optimization problem~\eqref{eqW} is called the $L^\alpha$-Wasserstein distance (to the power $\alpha$), and is denoted $W_\alpha(\mu_X,\mu_Y)^\alpha$. It can be shown that $W_\alpha$ defines a distance on the set of distributions that have moments of order $\al$.
+
+%  Note that computing the Wasserstein distance requires the computation of the transport map $T(X)=\Sig X$.
+
+%%%
+\paragraph{ Kantorovich OT formulation}
+
+The set of permutation matrices $\Perm$ is not convex.  Its convex hull is the set of bi-stochastic matrices
+\eq{
+	\Matr_1 = \enscond{\Sig \in \RR^{N \times N}}{ \Sig \U = \U, \Sig^* \U = \U, \Sig_{i,j} \in [0,1]}.
+}
+One can show that the relaxation
+\eql{\label{eqMK}
+	\min_{\Sig \in \Matr_1}  \dotp{C_{X,Y}}{\Sigma}
+} 
+of~\eqref{eqW} is tight, meaning that there exists a solution of~\eqref{eqMK} which is a binary matrix, hence being also a solution of the original non-convex problem~\eqref{eqW}, see~\cite{Villani03}.

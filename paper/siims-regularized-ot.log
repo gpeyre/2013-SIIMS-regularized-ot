@@ -1,0 +1,3569 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.19)  7 JAN 2017 20:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**siims-regularized-ot.tex
+(./siims-regularized-ot.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./siamltex.cls
+Document Class: siamltex 1996/10/11 v1.2 LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 2015/03/31 v1.1i Standard LaTeX option (left equation numbers)
+) (./siam10.clo
+File: siam10.clo 1994/10/01 v1.0 SIAM LaTeX file (size option)
+)
+\c@section=\count79
+\c@subsection=\count80
+\c@subsubsection=\count81
+\c@paragraph=\count82
+\c@subparagraph=\count83
+\c@rmnum=\count84
+\c@muni=\count85
+\c@theorem=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count91
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count92
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count93
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count99
+\U@D=\dimen107
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen108
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen109
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip11
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks16
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks17
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count112
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(./gpeyre.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks20
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen121
+\TX@old@table=\dimen122
+\TX@old@col=\dimen123
+\TX@target=\dimen124
+\TX@delta=\dimen125
+\TX@cols=\count113
+\TX@ftn=\toks21
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+\c@thm=\count114
+\c@prop=\count115
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count116
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+\@float@every@listing=\toks24
+\c@listing=\count117
+
+(./algorithm2e.sty
+Package: algorithm2e 2005/10/04 v3.9 algorithms environments
+\c@AlgoLine=\count118
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+********************************************************
+Package `algorithm2e' Release 3.9 -- october 04 2005 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip49
+\skiprule=\skip50
+\skiphlne=\skip51
+\skiptext=\skip52
+\skiplength=\skip53
+\algomargin=\skip54
+\skipalgocfslide=\skip55
+\algowidth=\dimen126
+\inoutsize=\dimen127
+\inoutline=\dimen128
+\algocf@inoutbox=\box30
+\algocf@inputbox=\box31
+\AlCapSkip=\skip56
+\AlCapHSkip=\skip57
+\algocf@capbox=\box32
+\c@algocfline=\count119
+\c@algocf=\count120
+\algocf@algoframe=\box33
+\algocf@algobox=\box34
+)
+\restsubwidth=\skip58
+\restsubheight=\skip59
+\restsubmoreheight=\skip60
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count121
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box35
+\rot@mess@toks=\toks25
+)
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 35.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 35.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 35.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+(./siims-regularized-ot.aux)
+\openout1 = `siims-regularized-ot.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring ON on input line 70.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count122
+)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+
+(./siims-regularized-ot.out) (./siims-regularized-ot.out)
+\@outlinefile=\write3
+\openout3 = `siims-regularized-ot.out'.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count123
+\scratchdimen=\dimen129
+\scratchbox=\box37
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen130
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+
+(./sections/sec-intro.tex [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+[2]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+ [3]) (./sections/sec-transport.tex [4]) (./sections/sec-relaxed.tex
+[5]
+Package epstopdf Info: Source file: <./images/cluster_matching_l0kx1KX1ky1KY1_n
+n4.eps>
+(epstopdf)                    date: 2013-07-18 17:51:10
+(epstopdf)                    size: 7914 bytes
+(epstopdf)             Output file: <./images/cluster_matching_l0kx1KX1ky1KY1_n
+n4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-18 17:54:44
+(epstopdf)                    size: 4233 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/cluster_matching_
+l0kx1KX1ky1KY1_nn4-eps-converted-to.pdf ./images/cluster_matching_l0kx1KX1ky1KY
+1_nn4.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/cluster_matching_l0kx1KX1ky1KY1_nn4-eps-converted-to.pdf, id=165, 445
+.665pt x 369.38pt>
+File: ./images/cluster_matching_l0kx1KX1ky1KY1_nn4-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ./images/cluster_matching_l0kx1KX1ky1KY1_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/cluster_matching_l0kx1KX1ky1KY1_nn4-eps-conve
+rted-to.pdf used on input line 89.
+(pdftex.def)             Requested size: 122.22731pt x 101.30644pt.
+Package epstopdf Info: Source file: <./images/cluster_matching_l0kx1KX1ky0KY2_n
+n4.eps>
+(epstopdf)                    date: 2013-07-18 17:51:11
+(epstopdf)                    size: 7912 bytes
+(epstopdf)             Output file: <./images/cluster_matching_l0kx1KX1ky0KY2_n
+n4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-18 17:54:46
+(epstopdf)                    size: 4227 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/cluster_matching_
+l0kx1KX1ky0KY2_nn4-eps-converted-to.pdf ./images/cluster_matching_l0kx1KX1ky0KY
+2_nn4.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/cluster_matching_l0kx1KX1ky0KY2_nn4-eps-converted-to.pdf, id=166, 445
+.665pt x 369.38pt>
+File: ./images/cluster_matching_l0kx1KX1ky0KY2_nn4-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ./images/cluster_matching_l0kx1KX1ky0KY2_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/cluster_matching_l0kx1KX1ky0KY2_nn4-eps-conve
+rted-to.pdf used on input line 90.
+(pdftex.def)             Requested size: 122.22731pt x 101.30644pt.
+Package epstopdf Info: Source file: <./images/cluster_matching_l0kx1KX1ky01KY10
+_nn4.eps>
+(epstopdf)                    date: 2013-07-18 17:51:12
+(epstopdf)                    size: 7933 bytes
+(epstopdf)             Output file: <./images/cluster_matching_l0kx1KX1ky01KY10
+_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-18 17:55:30
+(epstopdf)                    size: 4246 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/cluster_matching_
+l0kx1KX1ky01KY10_nn4-eps-converted-to.pdf ./images/cluster_matching_l0kx1KX1ky0
+1KY10_nn4.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/cluster_matching_l0kx1KX1ky01KY10_nn4-eps-converted-to.pdf, id=167, 4
+45.665pt x 369.38pt>
+File: ./images/cluster_matching_l0kx1KX1ky01KY10_nn4-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use ./images/cluster_matching_l0kx1KX1ky01KY10_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/cluster_matching_l0kx1KX1ky01KY10_nn4-eps-con
+verted-to.pdf used on input line 91.
+(pdftex.def)             Requested size: 122.22731pt x 101.30644pt.
+Package epstopdf Info: Source file: <./images/cluster_matching_l0kx1KX1ky01KY15
+_nn4.eps>
+(epstopdf)                    date: 2013-07-18 17:51:11
+(epstopdf)                    size: 8068 bytes
+(epstopdf)             Output file: <./images/cluster_matching_l0kx1KX1ky01KY15
+_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-18 17:55:30
+(epstopdf)                    size: 4275 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/cluster_matching_
+l0kx1KX1ky01KY15_nn4-eps-converted-to.pdf ./images/cluster_matching_l0kx1KX1ky0
+1KY15_nn4.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/cluster_matching_l0kx1KX1ky01KY15_nn4-eps-converted-to.pdf, id=168, 4
+45.665pt x 369.38pt>
+File: ./images/cluster_matching_l0kx1KX1ky01KY15_nn4-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use ./images/cluster_matching_l0kx1KX1ky01KY15_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/cluster_matching_l0kx1KX1ky01KY15_nn4-eps-con
+verted-to.pdf used on input line 93.
+(pdftex.def)             Requested size: 122.22731pt x 101.30644pt.
+Package epstopdf Info: Source file: <./images/cluster_matching_l0kx0KX2ky1KY1_n
+n4.eps>
+(epstopdf)                    date: 2013-07-18 17:51:12
+(epstopdf)                    size: 7909 bytes
+(epstopdf)             Output file: <./images/cluster_matching_l0kx0KX2ky1KY1_n
+n4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-18 17:55:31
+(epstopdf)                    size: 4223 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/cluster_matching_
+l0kx0KX2ky1KY1_nn4-eps-converted-to.pdf ./images/cluster_matching_l0kx0KX2ky1KY
+1_nn4.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/cluster_matching_l0kx0KX2ky1KY1_nn4-eps-converted-to.pdf, id=169, 445
+.665pt x 369.38pt>
+File: ./images/cluster_matching_l0kx0KX2ky1KY1_nn4-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ./images/cluster_matching_l0kx0KX2ky1KY1_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/cluster_matching_l0kx0KX2ky1KY1_nn4-eps-conve
+rted-to.pdf used on input line 94.
+(pdftex.def)             Requested size: 122.22731pt x 101.30644pt.
+Package epstopdf Info: Source file: <./images/cluster_matching_l0kx01KX10ky01KY
+10_nn4.eps>
+(epstopdf)                    date: 2013-07-18 17:51:13
+(epstopdf)                    size: 7885 bytes
+(epstopdf)             Output file: <./images/cluster_matching_l0kx01KX10ky01KY
+10_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-18 17:55:31
+(epstopdf)                    size: 4221 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/cluster_matching_
+l0kx01KX10ky01KY10_nn4-eps-converted-to.pdf ./images/cluster_matching_l0kx01KX1
+0ky01KY10_nn4.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/cluster_matching_l0kx01KX10ky01KY10_nn4-eps-converted-to.pdf, id=170,
+ 445.665pt x 369.38pt>
+File: ./images/cluster_matching_l0kx01KX10ky01KY10_nn4-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use ./images/cluster_matching_l0kx01KX10ky01KY10_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/cluster_matching_l0kx01KX10ky01KY10_nn4-eps-c
+onverted-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 122.22731pt x 101.30644pt.
+)
+(./sections/sec-regularized.tex [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.15 }
+       <./images/cluster_matching_l0kx1KX1ky1KY1_nn4-eps-converted-to.pdf> <./i
+mages/cluster_matching_l0kx1KX1ky0KY2_nn4-eps-converted-to.pdf> <./images/clust
+er_matching_l0kx1KX1ky01KY10_nn4-eps-converted-to.pdf> <./images/cluster_matchi
+ng_l0kx1KX1ky01KY15_nn4-eps-converted-to.pdf> <./images/cluster_matching_l0kx0K
+X2ky1KY1_nn4-eps-converted-to.pdf> <./images/cluster_matching_l0kx01KX10ky01KY1
+0_nn4-eps-converted-to.pdf>] [8]
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/symme
+tricsyntheticmapping_l0_KX8_KY8_nn4.eps>
+(epstopdf)                    date: 2013-07-09 11:35:38
+(epstopdf)                    size: 12826 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/symme
+tricsyntheticmapping_l0_KX8_KY8_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 11:40:39
+(epstopdf)                    size: 6842 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/symmetricsyntheticmapping_l0_KX8_KY8_nn4-eps-converted-to.pdf ./imag
+es/../images/syntheticexamples/symmetricsyntheticmapping_l0_KX8_KY8_nn4.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/symmetricsyntheticmapping_l0_KX8_KY8_nn4-
+eps-converted-to.pdf, id=234, 416.55624pt x 349.305pt>
+File: ./images/../images/syntheticexamples/symmetricsyntheticmapping_l0_KX8_KY8
+_nn4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/../images/syntheticexamples/symmetricsyntheticmapping_l0_KX8_KY8_
+nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/symmetricsyntheti
+cmapping_l0_KX8_KY8_nn4-eps-converted-to.pdf used on input line 125.
+(pdftex.def)             Requested size: 148.15123pt x 124.23065pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/symme
+tricsyntheticmapping_l0001_KX8_KY8_nn4.eps>
+(epstopdf)                    date: 2013-07-09 11:36:11
+(epstopdf)                    size: 14351 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/symme
+tricsyntheticmapping_l0001_KX8_KY8_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 11:40:39
+(epstopdf)                    size: 7521 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/symmetricsyntheticmapping_l0001_KX8_KY8_nn4-eps-converted-to.pdf ./i
+mages/../images/syntheticexamples/symmetricsyntheticmapping_l0001_KX8_KY8_nn4.e
+ps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/symmetricsyntheticmapping_l0001_KX8_KY8_n
+n4-eps-converted-to.pdf, id=235, 416.55624pt x 349.305pt>
+File: ./images/../images/syntheticexamples/symmetricsyntheticmapping_l0001_KX8_
+KY8_nn4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/../images/syntheticexamples/symmetricsyntheticmapping_l0001_KX8_K
+Y8_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/symmetricsyntheti
+cmapping_l0001_KX8_KY8_nn4-eps-converted-to.pdf used on input line 126.
+(pdftex.def)             Requested size: 148.15123pt x 124.23065pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/symme
+tricsyntheticmapping_l10_KX8_KY8_nn4.eps>
+(epstopdf)                    date: 2013-07-09 11:36:52
+(epstopdf)                    size: 15126 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/symme
+tricsyntheticmapping_l10_KX8_KY8_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 11:40:40
+(epstopdf)                    size: 8346 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/symmetricsyntheticmapping_l10_KX8_KY8_nn4-eps-converted-to.pdf ./ima
+ges/../images/syntheticexamples/symmetricsyntheticmapping_l10_KX8_KY8_nn4.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/symmetricsyntheticmapping_l10_KX8_KY8_nn4
+-eps-converted-to.pdf, id=236, 416.55624pt x 349.305pt>
+File: ./images/../images/syntheticexamples/symmetricsyntheticmapping_l10_KX8_KY
+8_nn4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/../images/syntheticexamples/symmetricsyntheticmapping_l10_KX8_KY8
+_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/symmetricsyntheti
+cmapping_l10_KX8_KY8_nn4-eps-converted-to.pdf used on input line 128.
+(pdftex.def)             Requested size: 148.15123pt x 124.23065pt.
+Package epstopdf Info: Source file: <./images/../images/graph.eps>
+(epstopdf)                    date: 2013-07-09 16:58:42
+(epstopdf)                    size: 15898 bytes
+(epstopdf)             Output file: <./images/../images/graph-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2013-07-09 16:59:24
+(epstopdf)                    size: 7307 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/graph-e
+ps-converted-to.pdf ./images/../images/graph.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/graph-eps-converted-to.pdf, id=237, 467.7475pt x 373.395pt>
+File: ./images/../images/graph-eps-converted-to.pdf Graphic file (type pdf)
+<use ./images/../images/graph-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/graph-eps-converted-to.pdf used on 
+input line 129.
+(pdftex.def)             Requested size: 148.15123pt x 118.26956pt.
+)
+(./sections/sec-applications.tex [9]
+<./images/colorization/parrot_1.jpg, id=248, 513.92pt x 513.92pt>
+File: ./images/colorization/parrot_1.jpg Graphic file (type jpg)
+
+<use ./images/colorization/parrot_1.jpg>
+Package pdftex.def Info: ./images/colorization/parrot_1.jpg used on input line 
+9.
+(pdftex.def)             Requested size: 118.5255pt x 118.52061pt.
+
+<./images/colorization/parrot_2.jpg, id=249, 123.3408pt x 123.3408pt>
+File: ./images/colorization/parrot_2.jpg Graphic file (type jpg)
+
+<use ./images/colorization/parrot_2.jpg>
+Package pdftex.def Info: ./images/colorization/parrot_2.jpg used on input line 
+10.
+(pdftex.def)             Requested size: 118.5255pt x 118.52814pt.
+Package epstopdf Info: Source file: <./images/colorization/asymmetricparrot_l00
+008_KX1_KY1_nn4.eps>
+(epstopdf)                    date: 2013-05-28 14:41:55
+(epstopdf)                    size: 1586138 bytes
+(epstopdf)             Output file: <./images/colorization/asymmetricparrot_l00
+008_KX1_KY1_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-06 18:33:02
+(epstopdf)                    size: 92220 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/colorization/asym
+metricparrot_l00008_KX1_KY1_nn4-eps-converted-to.pdf ./images/colorization/asym
+metricparrot_l00008_KX1_KY1_nn4.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/colorization/asymmetricparrot_l00008_KX1_KY1_nn4-eps-converted-to.pdf
+, id=250, 385.44pt x 385.44pt>
+File: ./images/colorization/asymmetricparrot_l00008_KX1_KY1_nn4-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ./images/colorization/asymmetricparrot_l00008_KX1_KY1_nn4-eps-converted-to
+.pdf>
+Package pdftex.def Info: ./images/colorization/asymmetricparrot_l00008_KX1_KY1_
+nn4-eps-converted-to.pdf used on input line 11.
+(pdftex.def)             Requested size: 118.5255pt x 118.52061pt.
+Package epstopdf Info: Source file: <./images/colorization/histo3Dx.eps>
+(epstopdf)                    date: 2013-05-28 16:14:04
+(epstopdf)                    size: 37544 bytes
+(epstopdf)             Output file: <./images/colorization/histo3Dx-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2013-06-06 18:33:03
+(epstopdf)                    size: 27101 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/colorization/hist
+o3Dx-eps-converted-to.pdf ./images/colorization/histo3Dx.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/colorization/histo3Dx-eps-converted-to.pdf, id=251, 493.845pt x 392.4
+6625pt>
+File: ./images/colorization/histo3Dx-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./images/colorization/histo3Dx-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/colorization/histo3Dx-eps-converted-to.pdf us
+ed on input line 13.
+(pdftex.def)             Requested size: 118.5255pt x 94.19382pt.
+Package epstopdf Info: Source file: <./images/colorization/histo3Dy.eps>
+(epstopdf)                    date: 2013-05-28 16:15:08
+(epstopdf)                    size: 37808 bytes
+(epstopdf)             Output file: <./images/colorization/histo3Dy-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2013-06-06 18:33:03
+(epstopdf)                    size: 27375 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/colorization/hist
+o3Dy-eps-converted-to.pdf ./images/colorization/histo3Dy.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/colorization/histo3Dy-eps-converted-to.pdf, id=252, 494.84875pt x 392
+.46625pt>
+File: ./images/colorization/histo3Dy-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./images/colorization/histo3Dy-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/colorization/histo3Dy-eps-converted-to.pdf us
+ed on input line 14.
+(pdftex.def)             Requested size: 118.5255pt x 94.00218pt.
+Package epstopdf Info: Source file: <./images/colorization/histo3Du.eps>
+(epstopdf)                    date: 2013-05-28 16:47:35
+(epstopdf)                    size: 37503 bytes
+(epstopdf)             Output file: <./images/colorization/histo3Du-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2013-06-06 18:33:03
+(epstopdf)                    size: 27335 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/colorization/hist
+o3Du-eps-converted-to.pdf ./images/colorization/histo3Du.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/colorization/histo3Du-eps-converted-to.pdf, id=253, 490.83376pt x 392
+.46625pt>
+File: ./images/colorization/histo3Du-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./images/colorization/histo3Du-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/colorization/histo3Du-eps-converted-to.pdf us
+ed on input line 15.
+(pdftex.def)             Requested size: 118.5255pt x 94.7687pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \caption
+             {Example of the colorization problem. Given images $X^0$ and $Y...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 ...e X}^0}$  that is similar to $\mu_{Y^0}$.}
+                                                  \label{imcolorization}pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.1}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 ...e X}^0}$  that is similar to $\mu_{Y^0}$.}
+                                                  \label{imcolorization}
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.25 
+      <./images/../images/syntheticexamples/symmetricsyntheticmapping_l0_KX8_KY
+8_nn4-eps-converted-to.pdf> <./images/../images/syntheticexamples/symmetricsynt
+heticmapping_l0001_KX8_KY8_nn4-eps-converted-to.pdf> <./images/../images/synthe
+ticexamples/symmetricsyntheticmapping_l10_KX8_KY8_nn4-eps-converted-to.pdf> <./
+images/../images/graph-eps-converted-to.pdf>]
+Package hyperref Info: bookmark level for unknown algocf defaults to 0 on input
+ line 36.
+
+Overfull \hbox (18.06749pt too wide) detected at line 50
+[][]
+ []
+
+[11 <./images/colorization/parrot_1.jpg> <./images/colorization/parrot_2.jpg> <
+./images/colorization/asymmetricparrot_l00008_KX1_KY1_nn4-eps-converted-to.pdf>
+ <./images/colorization/histo3Dx-eps-converted-to.pdf> <./images/colorization/h
+isto3Dy-eps-converted-to.pdf> <./images/colorization/histo3Du-eps-converted-to.
+pdf>] <./images/barycenter/flowers/flowers-1.jpg, id=310, 513.92pt x 513.92pt>
+File: ./images/barycenter/flowers/flowers-1.jpg Graphic file (type jpg)
+
+<use ./images/barycenter/flowers/flowers-1.jpg>
+Package pdftex.def Info: ./images/barycenter/flowers/flowers-1.jpg used on inpu
+t line 93.
+(pdftex.def)             Requested size: 148.15123pt x 148.1547pt.
+Package epstopdf Info: Source file: <./images/coloredgraph.eps>
+(epstopdf)                    date: 2013-07-14 21:59:48
+(epstopdf)                    size: 42646 bytes
+(epstopdf)             Output file: <./images/coloredgraph-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-07-14 22:04:17
+(epstopdf)                    size: 13948 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/coloredgraph-eps-
+converted-to.pdf ./images/coloredgraph.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/coloredgraph-eps-converted-to.pdf, id=311, 467.7475pt x 373.395pt>
+File: ./images/coloredgraph-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/coloredgraph-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/coloredgraph-eps-converted-to.pdf used on inp
+ut line 94.
+(pdftex.def)             Requested size: 203.71117pt x 145.10498pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 \caption
+             {(a) Flower image ; (b) its empirical distribution projected on...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 ...raph computed with $n=4$. \vspace{-0.1cm}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.97 ...raph computed with $n=4$. \vspace{-0.1cm}}
+                                                   [12]
+\mylenX=\skip63
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/X.eps
+>
+(epstopdf)                    date: 2013-05-23 18:49:38
+(epstopdf)                    size: 105390 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/X-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 10:51:58
+(epstopdf)                    size: 43445 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/X-eps-converted-to.pdf ./images/../images/syntheticexamples/X.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/X-eps-converted-to.pdf, id=337, 280.04625
+pt x 280.04625pt>
+File: ./images/../images/syntheticexamples/X-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./images/../images/syntheticexamples/X-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/X-eps-converted-t
+o.pdf used on input line 131.
+(pdftex.def)             Requested size: 49.79231pt x 49.7908pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/X.eps
+>
+(epstopdf)                    date: 2013-05-23 18:49:38
+(epstopdf)                    size: 105390 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/X-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 10:51:58
+(epstopdf)                    size: 43445 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/X-eps-converted-to.pdf ./images/../images/syntheticexamples/X.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+File: ./images/../images/syntheticexamples/X-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./images/../images/syntheticexamples/X-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/X-eps-converted-t
+o.pdf used on input line 137.
+(pdftex.def)             Requested size: 48.15169pt x 48.14992pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/Y.eps
+>
+(epstopdf)                    date: 2013-05-23 18:50:02
+(epstopdf)                    size: 105390 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/Y-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 10:51:58
+(epstopdf)                    size: 42984 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/Y-eps-converted-to.pdf ./images/../images/syntheticexamples/Y.eps>
+(epstopdf)             \includegraphics on input line 138.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/Y-eps-converted-to.pdf, id=338, 280.04625
+pt x 280.04625pt>
+File: ./images/../images/syntheticexamples/Y-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./images/../images/syntheticexamples/Y-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/Y-eps-converted-t
+o.pdf used on input line 138.
+(pdftex.def)             Requested size: 48.15169pt x 48.14992pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/symme
+tricsyntheticinv_l0_KX8_KY8_nn4.eps>
+(epstopdf)                    date: 2013-07-09 11:35:39
+(epstopdf)                    size: 105433 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/symme
+tricsyntheticinv_l0_KX8_KY8_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 18:04:51
+(epstopdf)                    size: 9469 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/symmetricsyntheticinv_l0_KX8_KY8_nn4-eps-converted-to.pdf ./images/.
+./images/syntheticexamples/symmetricsyntheticinv_l0_KX8_KY8_nn4.eps>
+(epstopdf)             \includegraphics on input line 142.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/symmetricsyntheticinv_l0_KX8_KY8_nn4-eps-
+converted-to.pdf, id=339, 280.04625pt x 280.04625pt>
+File: ./images/../images/syntheticexamples/symmetricsyntheticinv_l0_KX8_KY8_nn4
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/../images/syntheticexamples/symmetricsyntheticinv_l0_KX8_KY8_nn4-
+eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/symmetricsyntheti
+cinv_l0_KX8_KY8_nn4-eps-converted-to.pdf used on input line 142.
+(pdftex.def)             Requested size: 100.00519pt x 100.00465pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/symme
+tricsyntheticinv_l0001_KX8_KY8_nn4.eps>
+(epstopdf)                    date: 2013-07-09 11:36:12
+(epstopdf)                    size: 105437 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/symme
+tricsyntheticinv_l0001_KX8_KY8_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 18:04:51
+(epstopdf)                    size: 12853 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/symmetricsyntheticinv_l0001_KX8_KY8_nn4-eps-converted-to.pdf ./image
+s/../images/syntheticexamples/symmetricsyntheticinv_l0001_KX8_KY8_nn4.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/symmetricsyntheticinv_l0001_KX8_KY8_nn4-e
+ps-converted-to.pdf, id=340, 280.04625pt x 280.04625pt>
+File: ./images/../images/syntheticexamples/symmetricsyntheticinv_l0001_KX8_KY8_
+nn4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/../images/syntheticexamples/symmetricsyntheticinv_l0001_KX8_KY8_n
+n4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/symmetricsyntheti
+cinv_l0001_KX8_KY8_nn4-eps-converted-to.pdf used on input line 143.
+(pdftex.def)             Requested size: 100.00519pt x 100.00465pt.
+Package epstopdf Info: Source file: <./images/../images/syntheticexamples/symme
+tricsyntheticinv_l10_KX8_KY8_nn4.eps>
+(epstopdf)                    date: 2013-07-09 11:36:53
+(epstopdf)                    size: 105434 bytes
+(epstopdf)             Output file: <./images/../images/syntheticexamples/symme
+tricsyntheticinv_l10_KX8_KY8_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-09 18:04:51
+(epstopdf)                    size: 25076 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/../images/synthet
+icexamples/symmetricsyntheticinv_l10_KX8_KY8_nn4-eps-converted-to.pdf ./images/
+../images/syntheticexamples/symmetricsyntheticinv_l10_KX8_KY8_nn4.eps>
+(epstopdf)             \includegraphics on input line 144.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/../images/syntheticexamples/symmetricsyntheticinv_l10_KX8_KY8_nn4-eps
+-converted-to.pdf, id=341, 280.04625pt x 280.04625pt>
+File: ./images/../images/syntheticexamples/symmetricsyntheticinv_l10_KX8_KY8_nn
+4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/../images/syntheticexamples/symmetricsyntheticinv_l10_KX8_KY8_nn4
+-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/../images/syntheticexamples/symmetricsyntheti
+cinv_l10_KX8_KY8_nn4-eps-converted-to.pdf used on input line 144.
+(pdftex.def)             Requested size: 100.00519pt x 100.00465pt.
+
+<./images/influence-quantiz/parrot_1.jpg, id=347, 513.92pt x 513.92pt>
+File: ./images/influence-quantiz/parrot_1.jpg Graphic file (type jpg)
+
+<use ./images/influence-quantiz/parrot_1.jpg>
+Package pdftex.def Info: ./images/influence-quantiz/parrot_1.jpg used on input 
+line 169.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/parrotX_N64.eps
+>
+(epstopdf)                    date: 2013-12-04 00:16:18
+(epstopdf)                    size: 1586113 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/parrotX_N64-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:29
+(epstopdf)                    size: 103191 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/parrotX_N64-eps-converted-to.pdf ./images/influence-quantiz/parrotX_N64.eps>
+(epstopdf)             \includegraphics on input line 170.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/parrotX_N64-eps-converted-to.pdf, id=348, 385.44pt 
+x 385.44pt>
+File: ./images/influence-quantiz/parrotX_N64-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use ./images/influence-quantiz/parrotX_N64-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/parrotX_N64-eps-converted-t
+o.pdf used on input line 170.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/parrotX_N144.ep
+s>
+(epstopdf)                    date: 2013-12-04 02:12:38
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/parrotX_N144-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:30
+(epstopdf)                    size: 95772 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/parrotX_N144-eps-converted-to.pdf ./images/influence-quantiz/parrotX_N144.eps>
+
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/parrotX_N144-eps-converted-to.pdf, id=349, 385.44pt
+ x 385.44pt>
+File: ./images/influence-quantiz/parrotX_N144-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./images/influence-quantiz/parrotX_N144-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/parrotX_N144-eps-converted-
+to.pdf used on input line 171.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/parrotX_N400.ep
+s>
+(epstopdf)                    date: 2013-12-04 02:01:16
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/parrotX_N400-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:30
+(epstopdf)                    size: 92089 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/parrotX_N400-eps-converted-to.pdf ./images/influence-quantiz/parrotX_N400.eps>
+
+(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/parrotX_N400-eps-converted-to.pdf, id=350, 385.44pt
+ x 385.44pt>
+File: ./images/influence-quantiz/parrotX_N400-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./images/influence-quantiz/parrotX_N400-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/parrotX_N400-eps-converted-
+to.pdf used on input line 172.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+
+<./images/influence-quantiz/parrot_2.jpg, id=351, 123.3408pt x 123.3408pt>
+File: ./images/influence-quantiz/parrot_2.jpg Graphic file (type jpg)
+
+<use ./images/influence-quantiz/parrot_2.jpg>
+Package pdftex.def Info: ./images/influence-quantiz/parrot_2.jpg used on input 
+line 173.
+(pdftex.def)             Requested size: 92.59758pt x 92.59758pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/parrotY_N64.eps
+>
+(epstopdf)                    date: 2013-12-04 00:16:20
+(epstopdf)                    size: 1586113 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/parrotY_N64-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:31
+(epstopdf)                    size: 127468 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/parrotY_N64-eps-converted-to.pdf ./images/influence-quantiz/parrotY_N64.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/parrotY_N64-eps-converted-to.pdf, id=352, 385.44pt 
+x 385.44pt>
+File: ./images/influence-quantiz/parrotY_N64-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use ./images/influence-quantiz/parrotY_N64-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/parrotY_N64-eps-converted-t
+o.pdf used on input line 174.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/parrotY_N144.ep
+s>
+(epstopdf)                    date: 2013-12-04 02:12:40
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/parrotY_N144-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:31
+(epstopdf)                    size: 132649 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/parrotY_N144-eps-converted-to.pdf ./images/influence-quantiz/parrotY_N144.eps>
+
+(epstopdf)             \includegraphics on input line 175.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/parrotY_N144-eps-converted-to.pdf, id=353, 385.44pt
+ x 385.44pt>
+File: ./images/influence-quantiz/parrotY_N144-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./images/influence-quantiz/parrotY_N144-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/parrotY_N144-eps-converted-
+to.pdf used on input line 175.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/parrotY_N400.ep
+s>
+(epstopdf)                    date: 2013-12-04 02:01:21
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/parrotY_N400-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:32
+(epstopdf)                    size: 134851 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/parrotY_N400-eps-converted-to.pdf ./images/influence-quantiz/parrotY_N400.eps>
+
+(epstopdf)             \includegraphics on input line 176.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/parrotY_N400-eps-converted-to.pdf, id=354, 385.44pt
+ x 385.44pt>
+File: ./images/influence-quantiz/parrotY_N400-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./images/influence-quantiz/parrotY_N400-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/parrotY_N400-eps-converted-
+to.pdf used on input line 176.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+
+<./images/influence-quantiz/flowers-1.jpg, id=355, 513.92pt x 513.92pt>
+File: ./images/influence-quantiz/flowers-1.jpg Graphic file (type jpg)
+
+<use ./images/influence-quantiz/flowers-1.jpg>
+Package pdftex.def Info: ./images/influence-quantiz/flowers-1.jpg used on input
+ line 181.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/flowersX_N64.ep
+s>
+(epstopdf)                    date: 2013-12-09 23:18:44
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/flowersX_N64-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:32
+(epstopdf)                    size: 128468 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/flowersX_N64-eps-converted-to.pdf ./images/influence-quantiz/flowersX_N64.eps>
+
+(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/flowersX_N64-eps-converted-to.pdf, id=356, 385.44pt
+ x 385.44pt>
+File: ./images/influence-quantiz/flowersX_N64-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./images/influence-quantiz/flowersX_N64-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/flowersX_N64-eps-converted-
+to.pdf used on input line 182.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/flowersX_N144.e
+ps>
+(epstopdf)                    date: 2013-12-09 23:21:01
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/flowersX_N144-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:33
+(epstopdf)                    size: 125949 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/flowersX_N144-eps-converted-to.pdf ./images/influence-quantiz/flowersX_N144.ep
+s>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/flowersX_N144-eps-converted-to.pdf, id=357, 385.44p
+t x 385.44pt>
+File: ./images/influence-quantiz/flowersX_N144-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use ./images/influence-quantiz/flowersX_N144-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/flowersX_N144-eps-converted
+-to.pdf used on input line 183.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/flowersX_N400.e
+ps>
+(epstopdf)                    date: 2013-12-09 23:13:10
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/flowersX_N400-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:33
+(epstopdf)                    size: 128156 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/flowersX_N400-eps-converted-to.pdf ./images/influence-quantiz/flowersX_N400.ep
+s>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/flowersX_N400-eps-converted-to.pdf, id=358, 385.44p
+t x 385.44pt>
+File: ./images/influence-quantiz/flowersX_N400-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use ./images/influence-quantiz/flowersX_N400-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/flowersX_N400-eps-converted
+-to.pdf used on input line 184.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+
+<./images/influence-quantiz/flowers-2.jpg, id=359, 205.568pt x 205.568pt>
+File: ./images/influence-quantiz/flowers-2.jpg Graphic file (type jpg)
+
+<use ./images/influence-quantiz/flowers-2.jpg>
+Package pdftex.def Info: ./images/influence-quantiz/flowers-2.jpg used on input
+ line 185.
+(pdftex.def)             Requested size: 92.59569pt x 92.59569pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/flowersY_N64.ep
+s>
+(epstopdf)                    date: 2013-12-09 23:18:46
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/flowersY_N64-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:34
+(epstopdf)                    size: 112745 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/flowersY_N64-eps-converted-to.pdf ./images/influence-quantiz/flowersY_N64.eps>
+
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/flowersY_N64-eps-converted-to.pdf, id=360, 385.44pt
+ x 385.44pt>
+File: ./images/influence-quantiz/flowersY_N64-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./images/influence-quantiz/flowersY_N64-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/flowersY_N64-eps-converted-
+to.pdf used on input line 186.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/flowersY_N144.e
+ps>
+(epstopdf)                    date: 2013-12-09 23:21:05
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/flowersY_N144-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:34
+(epstopdf)                    size: 122802 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/flowersY_N144-eps-converted-to.pdf ./images/influence-quantiz/flowersY_N144.ep
+s>
+(epstopdf)             \includegraphics on input line 187.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/flowersY_N144-eps-converted-to.pdf, id=361, 385.44p
+t x 385.44pt>
+File: ./images/influence-quantiz/flowersY_N144-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use ./images/influence-quantiz/flowersY_N144-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/flowersY_N144-eps-converted
+-to.pdf used on input line 187.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-quantiz/flowersY_N400.e
+ps>
+(epstopdf)                    date: 2013-12-09 23:13:14
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-quantiz/flowersY_N400-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:18:35
+(epstopdf)                    size: 128803 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-quantiz
+/flowersY_N400-eps-converted-to.pdf ./images/influence-quantiz/flowersY_N400.ep
+s>
+(epstopdf)             \includegraphics on input line 188.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-quantiz/flowersY_N400-eps-converted-to.pdf, id=362, 385.44p
+t x 385.44pt>
+File: ./images/influence-quantiz/flowersY_N400-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use ./images/influence-quantiz/flowersY_N400-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-quantiz/flowersY_N400-eps-converted
+-to.pdf used on input line 188.
+(pdftex.def)             Requested size: 92.5957pt x 92.5957pt.
+
+Overfull \hbox (8.53673pt too wide) in paragraph at lines 168--191
+ [][] 
+ []
+
+
+Overfull \hbox (8.53485pt too wide) in paragraph at lines 168--191
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./images/barycenter/flowers/flowers-1.jpg> <./images/coloredgraph-eps-conv
+erted-to.pdf>]
+Package epstopdf Info: Source file: <./images/influence-nn/parrotX_nnx1.eps>
+(epstopdf)                    date: 2013-12-04 02:37:28
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotX_nnx1-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:18
+(epstopdf)                    size: 122579 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otX_nnx1-eps-converted-to.pdf ./images/influence-nn/parrotX_nnx1.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotX_nnx1-eps-converted-to.pdf, id=377, 385.44pt x 38
+5.44pt>
+File: ./images/influence-nn/parrotX_nnx1-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ./images/influence-nn/parrotX_nnx1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotX_nnx1-eps-converted-to.pd
+f used on input line 211.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotX_nnx2.eps>
+(epstopdf)                    date: 2013-12-04 03:34:40
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotX_nnx2-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:19
+(epstopdf)                    size: 107033 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otX_nnx2-eps-converted-to.pdf ./images/influence-nn/parrotX_nnx2.eps>
+(epstopdf)             \includegraphics on input line 212.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotX_nnx2-eps-converted-to.pdf, id=378, 385.44pt x 38
+5.44pt>
+File: ./images/influence-nn/parrotX_nnx2-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ./images/influence-nn/parrotX_nnx2-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotX_nnx2-eps-converted-to.pd
+f used on input line 212.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotX_nnx4.eps>
+(epstopdf)                    date: 2013-12-04 02:12:38
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotX_nnx4-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:19
+(epstopdf)                    size: 95772 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otX_nnx4-eps-converted-to.pdf ./images/influence-nn/parrotX_nnx4.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotX_nnx4-eps-converted-to.pdf, id=379, 385.44pt x 38
+5.44pt>
+File: ./images/influence-nn/parrotX_nnx4-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ./images/influence-nn/parrotX_nnx4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotX_nnx4-eps-converted-to.pd
+f used on input line 213.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotX_nnx10.eps>
+(epstopdf)                    date: 2013-12-04 02:47:03
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotX_nnx10-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:20
+(epstopdf)                    size: 89515 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otX_nnx10-eps-converted-to.pdf ./images/influence-nn/parrotX_nnx10.eps>
+(epstopdf)             \includegraphics on input line 214.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotX_nnx10-eps-converted-to.pdf, id=380, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/parrotX_nnx10-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/parrotX_nnx10-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotX_nnx10-eps-converted-to.p
+df used on input line 214.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotY_nnx1.eps>
+(epstopdf)                    date: 2013-12-04 02:37:30
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotY_nnx1-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:20
+(epstopdf)                    size: 127366 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otY_nnx1-eps-converted-to.pdf ./images/influence-nn/parrotY_nnx1.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotY_nnx1-eps-converted-to.pdf, id=381, 385.44pt x 38
+5.44pt>
+File: ./images/influence-nn/parrotY_nnx1-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ./images/influence-nn/parrotY_nnx1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotY_nnx1-eps-converted-to.pd
+f used on input line 215.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotY_nnx2.eps>
+(epstopdf)                    date: 2013-12-04 03:34:42
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotY_nnx2-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:21
+(epstopdf)                    size: 135641 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otY_nnx2-eps-converted-to.pdf ./images/influence-nn/parrotY_nnx2.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotY_nnx2-eps-converted-to.pdf, id=382, 385.44pt x 38
+5.44pt>
+File: ./images/influence-nn/parrotY_nnx2-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ./images/influence-nn/parrotY_nnx2-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotY_nnx2-eps-converted-to.pd
+f used on input line 216.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotY_nnx4.eps>
+(epstopdf)                    date: 2013-12-04 02:12:40
+(epstopdf)                    size: 1586114 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotY_nnx4-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:21
+(epstopdf)                    size: 132649 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otY_nnx4-eps-converted-to.pdf ./images/influence-nn/parrotY_nnx4.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotY_nnx4-eps-converted-to.pdf, id=383, 385.44pt x 38
+5.44pt>
+File: ./images/influence-nn/parrotY_nnx4-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ./images/influence-nn/parrotY_nnx4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotY_nnx4-eps-converted-to.pd
+f used on input line 217.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/parrotY_nnx10.eps>
+(epstopdf)                    date: 2013-12-04 02:47:12
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/parrotY_nnx10-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:22
+(epstopdf)                    size: 138878 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/parr
+otY_nnx10-eps-converted-to.pdf ./images/influence-nn/parrotY_nnx10.eps>
+(epstopdf)             \includegraphics on input line 218.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/parrotY_nnx10-eps-converted-to.pdf, id=384, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/parrotY_nnx10-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/parrotY_nnx10-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/parrotY_nnx10-eps-converted-to.p
+df used on input line 218.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersX_nnx1.eps>
+(epstopdf)                    date: 2013-12-04 03:16:22
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersX_nnx1-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:23
+(epstopdf)                    size: 138576 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersX_nnx1-eps-converted-to.pdf ./images/influence-nn/flowersX_nnx1.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersX_nnx1-eps-converted-to.pdf, id=385, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/flowersX_nnx1-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/flowersX_nnx1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersX_nnx1-eps-converted-to.p
+df used on input line 219.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersX_nnx2.eps>
+(epstopdf)                    date: 2013-12-09 21:17:03
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersX_nnx2-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:23
+(epstopdf)                    size: 129214 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersX_nnx2-eps-converted-to.pdf ./images/influence-nn/flowersX_nnx2.eps>
+(epstopdf)             \includegraphics on input line 220.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersX_nnx2-eps-converted-to.pdf, id=386, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/flowersX_nnx2-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/flowersX_nnx2-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersX_nnx2-eps-converted-to.p
+df used on input line 220.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersX_nnx4.eps>
+(epstopdf)                    date: 2013-12-09 23:13:10
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersX_nnx4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:24
+(epstopdf)                    size: 128156 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersX_nnx4-eps-converted-to.pdf ./images/influence-nn/flowersX_nnx4.eps>
+(epstopdf)             \includegraphics on input line 221.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersX_nnx4-eps-converted-to.pdf, id=387, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/flowersX_nnx4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/flowersX_nnx4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersX_nnx4-eps-converted-to.p
+df used on input line 221.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersX_nnx10.eps>
+(epstopdf)                    date: 2013-12-04 03:10:49
+(epstopdf)                    size: 1586116 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersX_nnx10-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:24
+(epstopdf)                    size: 126423 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersX_nnx10-eps-converted-to.pdf ./images/influence-nn/flowersX_nnx10.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersX_nnx10-eps-converted-to.pdf, id=388, 385.44pt x 
+385.44pt>
+File: ./images/influence-nn/flowersX_nnx10-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./images/influence-nn/flowersX_nnx10-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersX_nnx10-eps-converted-to.
+pdf used on input line 222.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersY_nnx1.eps>
+(epstopdf)                    date: 2013-12-04 03:16:25
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersY_nnx1-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:25
+(epstopdf)                    size: 116793 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersY_nnx1-eps-converted-to.pdf ./images/influence-nn/flowersY_nnx1.eps>
+(epstopdf)             \includegraphics on input line 223.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersY_nnx1-eps-converted-to.pdf, id=389, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/flowersY_nnx1-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/flowersY_nnx1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersY_nnx1-eps-converted-to.p
+df used on input line 223.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersY_nnx2.eps>
+(epstopdf)                    date: 2013-12-09 21:17:08
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersY_nnx2-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:25
+(epstopdf)                    size: 122713 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersY_nnx2-eps-converted-to.pdf ./images/influence-nn/flowersY_nnx2.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersY_nnx2-eps-converted-to.pdf, id=390, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/flowersY_nnx2-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/flowersY_nnx2-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersY_nnx2-eps-converted-to.p
+df used on input line 224.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersY_nnx4.eps>
+(epstopdf)                    date: 2013-12-09 23:13:14
+(epstopdf)                    size: 1586115 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersY_nnx4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:26
+(epstopdf)                    size: 128803 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersY_nnx4-eps-converted-to.pdf ./images/influence-nn/flowersY_nnx4.eps>
+(epstopdf)             \includegraphics on input line 225.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersY_nnx4-eps-converted-to.pdf, id=391, 385.44pt x 3
+85.44pt>
+File: ./images/influence-nn/flowersY_nnx4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./images/influence-nn/flowersY_nnx4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersY_nnx4-eps-converted-to.p
+df used on input line 225.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+Package epstopdf Info: Source file: <./images/influence-nn/flowersY_nnx10.eps>
+(epstopdf)                    date: 2013-12-04 03:11:03
+(epstopdf)                    size: 1586116 bytes
+(epstopdf)             Output file: <./images/influence-nn/flowersY_nnx10-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2013-12-15 17:15:26
+(epstopdf)                    size: 128590 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/influence-nn/flow
+ersY_nnx10-eps-converted-to.pdf ./images/influence-nn/flowersY_nnx10.eps>
+(epstopdf)             \includegraphics on input line 226.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/influence-nn/flowersY_nnx10-eps-converted-to.pdf, id=392, 385.44pt x 
+385.44pt>
+File: ./images/influence-nn/flowersY_nnx10-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./images/influence-nn/flowersY_nnx10-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/influence-nn/flowersY_nnx10-eps-converted-to.
+pdf used on input line 226.
+(pdftex.def)             Requested size: 92.59593pt x 92.5957pt.
+
+Overfull \hbox (8.53577pt too wide) in paragraph at lines 210--229
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\mylen=\skip64
+<./images/star/fleur_1.jpg, id=402, 719.68875pt x 540.0175pt>
+File: ./images/star/fleur_1.jpg Graphic file (type jpg)
+
+<use ./images/star/fleur_1.jpg>
+Package pdftex.def Info: ./images/star/fleur_1.jpg used on input line 248.
+(pdftex.def)             Requested size: 108.11337pt x 93.88647pt.
+File: ./images/star/fleur_1.jpg Graphic file (type jpg)
+ <use ./images/star/fleur_1.jpg>
+Package pdftex.def Info: ./images/star/fleur_1.jpg used on input line 259.
+(pdftex.def)             Requested size: 92.59644pt x 81.47704pt.
+
+<./images/star/wheat_1.jpg, id=403, 539.76656pt x 405.01312pt>
+File: ./images/star/wheat_1.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_1.jpg>
+Package pdftex.def Info: ./images/star/wheat_1.jpg used on input line 260.
+(pdftex.def)             Requested size: 92.59094pt x 81.48322pt.
+
+<./images/star/parrot_1.jpg, id=404, 513.92pt x 513.92pt>
+File: ./images/star/parrot_1.jpg Graphic file (type jpg)
+
+<use ./images/star/parrot_1.jpg>
+Package pdftex.def Info: ./images/star/parrot_1.jpg used on input line 261.
+(pdftex.def)             Requested size: 92.5957pt x 81.4839pt.
+
+<./images/star/fleur_2.jpg, id=405, 308.352pt x 231.264pt>
+File: ./images/star/fleur_2.jpg Graphic file (type jpg)
+
+<use ./images/star/fleur_2.jpg>
+Package pdftex.def Info: ./images/star/fleur_2.jpg used on input line 263.
+(pdftex.def)             Requested size: 92.5957pt x 81.4835pt.
+
+<./images/star/wheat_2.jpg, id=406, 216.007pt x 287.8755pt>
+File: ./images/star/wheat_2.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_2.jpg>
+Package pdftex.def Info: ./images/star/wheat_2.jpg used on input line 264.
+(pdftex.def)             Requested size: 92.59773pt x 81.48311pt.
+
+<./images/star/parrot_2.jpg, id=407, 123.3408pt x 123.3408pt>
+File: ./images/star/parrot_2.jpg Graphic file (type jpg)
+
+<use ./images/star/parrot_2.jpg>
+Package pdftex.def Info: ./images/star/parrot_2.jpg used on input line 265.
+(pdftex.def)             Requested size: 92.59758pt x 81.48608pt.
+
+<./images/star/fleur_pitie.jpg, id=409, 1027.84pt x 770.88pt>
+File: ./images/star/fleur_pitie.jpg Graphic file (type jpg)
+
+<use ./images/star/fleur_pitie.jpg>
+Package pdftex.def Info: ./images/star/fleur_pitie.jpg used on input line 267.
+(pdftex.def)             Requested size: 92.5957pt x 81.47998pt.
+
+<./images/star/wheat_pitie.jpg, id=410, 1027.84pt x 770.88pt>
+File: ./images/star/wheat_pitie.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_pitie.jpg>
+Package pdftex.def Info: ./images/star/wheat_pitie.jpg used on input line 268.
+(pdftex.def)             Requested size: 92.5957pt x 81.47998pt.
+
+<./images/star/parrot_pitie.jpg, id=411, 513.92pt x 513.92pt>
+File: ./images/star/parrot_pitie.jpg Graphic file (type jpg)
+
+<use ./images/star/parrot_pitie.jpg>
+Package pdftex.def Info: ./images/star/parrot_pitie.jpg used on input line 269.
+
+(pdftex.def)             Requested size: 92.5957pt x 81.4839pt.
+
+<./images/star/fleur_Rabin.jpg, id=413, 48.18pt x 36.135pt>
+File: ./images/star/fleur_Rabin.jpg Graphic file (type jpg)
+
+<use ./images/star/fleur_Rabin.jpg>
+Package pdftex.def Info: ./images/star/fleur_Rabin.jpg used on input line 271.
+(pdftex.def)             Requested size: 92.59566pt x 81.4893pt.
+
+<./images/star/wheat_Rabin.jpg, id=414, 61.6704pt x 46.2528pt>
+File: ./images/star/wheat_Rabin.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_Rabin.jpg>
+Package pdftex.def Info: ./images/star/wheat_Rabin.jpg used on input line 272.
+(pdftex.def)             Requested size: 92.60509pt x 81.48915pt.
+
+<./images/star/parrot_Rabin.jpg, id=415, 30.8352pt x 30.8352pt>
+File: ./images/star/parrot_Rabin.jpg Graphic file (type jpg)
+
+<use ./images/star/parrot_Rabin.jpg>
+Package pdftex.def Info: ./images/star/parrot_Rabin.jpg used on input line 273.
+
+(pdftex.def)             Requested size: 92.61684pt x 81.503pt.
+
+<./images/star/fleur_papadakis.jpg, id=417, 1042.31662pt x 781.73746pt>
+File: ./images/star/fleur_papadakis.jpg Graphic file (type jpg)
+
+<use ./images/star/fleur_papadakis.jpg>
+Package pdftex.def Info: ./images/star/fleur_papadakis.jpg used on input line 2
+75.
+(pdftex.def)             Requested size: 92.5957pt x 81.48247pt.
+
+<./images/star/wheat_papadakis.jpg, id=418, 1042.31662pt x 781.73746pt>
+File: ./images/star/wheat_papadakis.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_papadakis.jpg>
+Package pdftex.def Info: ./images/star/wheat_papadakis.jpg used on input line 2
+76.
+(pdftex.def)             Requested size: 92.5957pt x 81.48247pt.
+
+<./images/star/parrot_papadakis.jpg, id=419, 521.15831pt x 521.15831pt>
+File: ./images/star/parrot_papadakis.jpg Graphic file (type jpg)
+
+<use ./images/star/parrot_papadakis.jpg>
+Package pdftex.def Info: ./images/star/parrot_papadakis.jpg used on input line 
+277.
+(pdftex.def)             Requested size: 92.5957pt x 81.4785pt.
+Package epstopdf Info: Source file: <./images/symmetric/symmetricfleur_l00009_K
+X11_KY11_nn4.eps>
+(epstopdf)                    date: 2013-05-26 16:13:48
+(epstopdf)                    size: 1586140 bytes
+(epstopdf)             Output file: <./images/symmetric/symmetricfleur_l00009_K
+X11_KY11_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-26 16:26:57
+(epstopdf)                    size: 137535 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/symmetric/symmetr
+icfleur_l00009_KX11_KY11_nn4-eps-converted-to.pdf ./images/symmetric/symmetricf
+leur_l00009_KX11_KY11_nn4.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/symmetric/symmetricfleur_l00009_KX11_KY11_nn4-eps-converted-to.pdf, i
+d=420, 385.44pt x 385.44pt>
+File: ./images/symmetric/symmetricfleur_l00009_KX11_KY11_nn4-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use ./images/symmetric/symmetricfleur_l00009_KX11_KY11_nn4-eps-converted-to.pd
+f>
+Package pdftex.def Info: ./images/symmetric/symmetricfleur_l00009_KX11_KY11_nn4
+-eps-converted-to.pdf used on input line 279.
+(pdftex.def)             Requested size: 92.5957pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/symmetric/symmetricwheat_l00005_K
+X13_KY13_nn4.eps>
+(epstopdf)                    date: 2013-05-25 20:42:54
+(epstopdf)                    size: 1586140 bytes
+(epstopdf)             Output file: <./images/symmetric/symmetricwheat_l00005_K
+X13_KY13_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-26 14:02:01
+(epstopdf)                    size: 136802 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/symmetric/symmetr
+icwheat_l00005_KX13_KY13_nn4-eps-converted-to.pdf ./images/symmetric/symmetricw
+heat_l00005_KX13_KY13_nn4.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/symmetric/symmetricwheat_l00005_KX13_KY13_nn4-eps-converted-to.pdf, i
+d=421, 385.44pt x 385.44pt>
+File: ./images/symmetric/symmetricwheat_l00005_KX13_KY13_nn4-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use ./images/symmetric/symmetricwheat_l00005_KX13_KY13_nn4-eps-converted-to.pd
+f>
+Package pdftex.def Info: ./images/symmetric/symmetricwheat_l00005_KX13_KY13_nn4
+-eps-converted-to.pdf used on input line 280.
+(pdftex.def)             Requested size: 92.5957pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/symmetric/symmetricparrot_l0001_K
+X1_KY1_nn4.eps>
+(epstopdf)                    date: 2013-05-26 02:13:02
+(epstopdf)                    size: 1586136 bytes
+(epstopdf)             Output file: <./images/symmetric/symmetricparrot_l0001_K
+X1_KY1_nn4-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-26 14:07:59
+(epstopdf)                    size: 90347 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/symmetric/symmetr
+icparrot_l0001_KX1_KY1_nn4-eps-converted-to.pdf ./images/symmetric/symmetricpar
+rot_l0001_KX1_KY1_nn4.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/symmetric/symmetricparrot_l0001_KX1_KY1_nn4-eps-converted-to.pdf, id=
+422, 385.44pt x 385.44pt>
+File: ./images/symmetric/symmetricparrot_l0001_KX1_KY1_nn4-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use ./images/symmetric/symmetricparrot_l0001_KX1_KY1_nn4-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/symmetric/symmetricparrot_l0001_KX1_KY1_nn4-e
+ps-converted-to.pdf used on input line 281.
+(pdftex.def)             Requested size: 92.5957pt x 81.47998pt.
+) (./sections/sec-barycenters.tex
+Overfull \hbox (4.49586pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 5. Reg-u-lar-ized OT Barycen-ters.[] \OT1/cmr/m/n/10 As pre-s
+ented in the in-tro-duc-tion, Sec-tion [][]1.2[][],
+ []
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 
+     <./images/../images/syntheticexamples/X-eps-converted-to.pdf> <./images/..
+/images/syntheticexamples/Y-eps-converted-to.pdf> <./images/../images/synthetic
+examples/symmetricsyntheticinv_l0_KX8_KY8_nn4-eps-converted-to.pdf> <./images/.
+./images/syntheticexamples/symmetricsyntheticinv_l0001_KX8_KY8_nn4-eps-converte
+d-to.pdf> <./images/../images/syntheticexamples/symmetricsyntheticinv_l10_KX8_K
+Y8_nn4-eps-converted-to.pdf>]
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.17 }
+       <./images/influence-quantiz/parrot_1.jpg> <./images/influence-quantiz/pa
+rrotX_N64-eps-converted-to.pdf> <./images/influence-quantiz/parrotX_N144-eps-co
+nverted-to.pdf> <./images/influence-quantiz/parrotX_N400-eps-converted-to.pdf> 
+<./images/influence-quantiz/parrot_2.jpg> <./images/influence-quantiz/parrotY_N
+64-eps-converted-to.pdf> <./images/influence-quantiz/parrotY_N144-eps-converted
+-to.pdf> <./images/influence-quantiz/parrotY_N400-eps-converted-to.pdf> <./imag
+es/influence-quantiz/flowers-1.jpg> <./images/influence-quantiz/flowersX_N64-ep
+s-converted-to.pdf> <./images/influence-quantiz/flowersX_N144-eps-converted-to.
+pdf> <./images/influence-quantiz/flowersX_N400-eps-converted-to.pdf> <./images/
+influence-quantiz/flowers-2.jpg> <./images/influence-quantiz/flowersY_N64-eps-c
+onverted-to.pdf> <./images/influence-quantiz/flowersY_N144-eps-converted-to.pdf
+> <./images/influence-quantiz/flowersY_N400-eps-converted-to.pdf>] [16pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.5}) has been al
+ready used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.29 }
+       <./images/influence-nn/parrotX_nnx1-eps-converted-to.pdf> <./images/infl
+uence-nn/parrotX_nnx2-eps-converted-to.pdf> <./images/influence-nn/parrotX_nnx4
+-eps-converted-to.pdf> <./images/influence-nn/parrotX_nnx10-eps-converted-to.pd
+f> <./images/influence-nn/parrotY_nnx1-eps-converted-to.pdf> <./images/influenc
+e-nn/parrotY_nnx2-eps-converted-to.pdf> <./images/influence-nn/parrotY_nnx4-eps
+-converted-to.pdf> <./images/influence-nn/parrotY_nnx10-eps-converted-to.pdf> <
+./images/influence-nn/flowersX_nnx1-eps-converted-to.pdf> <./images/influence-n
+n/flowersX_nnx2-eps-converted-to.pdf> <./images/influence-nn/flowersX_nnx4-eps-
+converted-to.pdf> <./images/influence-nn/flowersX_nnx10-eps-converted-to.pdf> <
+./images/influence-nn/flowersY_nnx1-eps-converted-to.pdf> <./images/influence-n
+n/flowersY_nnx2-eps-converted-to.pdf> <./images/influence-nn/flowersY_nnx4-eps-
+converted-to.pdf> <./images/influence-nn/flowersY_nnx10-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 17 contains only floats.
+
+
+Overfull \vbox (4.60432pt too high) has occurred while \output is active []
+
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.29 }
+       <./images/star/fleur_1.jpg> <./images/star/wheat_1.jpg> <./images/star/p
+arrot_1.jpg> <./images/star/fleur_2.jpg> <./images/star/wheat_2.jpg> <./images/
+star/parrot_2.jpg> <./images/star/fleur_pitie.jpg> <./images/star/wheat_pitie.j
+pg> <./images/star/parrot_pitie.jpg> <./images/star/fleur_Rabin.jpg> <./images/
+star/wheat_Rabin.jpg> <./images/star/parrot_Rabin.jpg> <./images/star/fleur_pap
+adakis.jpg> <./images/star/wheat_papadakis.jpg> <./images/star/parrot_papadakis
+.jpg> <./images/symmetric/symmetricfleur_l00009_KX11_KY11_nn4-eps-converted-to.
+pdf> <./images/symmetric/symmetricwheat_l00005_KX13_KY13_nn4-eps-converted-to.p
+df> <./images/symmetric/symmetricparrot_l0001_KX1_KY1_nn4-eps-converted-to.pdf>
+] [18]
+Overfull \hbox (18.06749pt too wide) detected at line 147
+[][]
+ []
+
+[19]) (./sections/sec-application-bary.tex [20]
+Overfull \hbox (18.06749pt too wide) detected at line 35
+[][]
+ []
+
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-0-ksum1lambda0nnx4QP1png.eps>
+(epstopdf)                    date: 2013-06-22 16:47:07
+(epstopdf)                    size: 46932 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-0-ksum1lambda0nnx4QP1png-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 20:36:50
+(epstopdf)                    size: 17937 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-0-ksum1lambda0nnx4QP1png-eps-converted-to.pdf ./i
+mages/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum1lambda0nnx4QP1png.e
+ps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum1lambda0nnx4QP1p
+ng-eps-converted-to.pdf, id=643, 440.64626pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum1lambda0nnx
+4QP1png-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum1lambda0nnx4
+QP1png-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-0-ksum1lambda0nnx4QP1png-eps-converted-to.pdf used on input line 49.
+(pdftex.def)             Requested size: 85.18668pt x 72.18214pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-03-ksum1lambda0nnx4QP1png.eps>
+(epstopdf)                    date: 2013-06-22 16:54:25
+(epstopdf)                    size: 47034 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-03-ksum1lambda0nnx4QP1png-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 20:36:50
+(epstopdf)                    size: 24831 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-03-ksum1lambda0nnx4QP1png-eps-converted-to.pdf ./
+images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum1lambda0nnx4QP1png
+.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum1lambda0nnx4QP1
+png-eps-converted-to.pdf, id=644, 439.6425pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum1lambda0nn
+x4QP1png-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum1lambda0nnx
+4QP1png-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-03-ksum1lambda0nnx4QP1png-eps-converted-to.pdf used on input line 50.
+(pdftex.def)             Requested size: 85.18668pt x 72.34738pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-06-ksum1lambda0nnx4QP1png.eps>
+(epstopdf)                    date: 2013-06-22 17:02:11
+(epstopdf)                    size: 50318 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-06-ksum1lambda0nnx4QP1png-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 20:36:51
+(epstopdf)                    size: 24893 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-06-ksum1lambda0nnx4QP1png-eps-converted-to.pdf ./
+images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum1lambda0nnx4QP1png
+.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum1lambda0nnx4QP1
+png-eps-converted-to.pdf, id=645, 440.64626pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum1lambda0nn
+x4QP1png-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum1lambda0nnx
+4QP1png-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-06-ksum1lambda0nnx4QP1png-eps-converted-to.pdf used on input line 51.
+(pdftex.def)             Requested size: 85.18668pt x 72.18214pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-1-ksum1lambda0nnx4QP1png.eps>
+(epstopdf)                    date: 2013-06-22 17:08:53
+(epstopdf)                    size: 47209 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-1-ksum1lambda0nnx4QP1png-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-14 21:05:05
+(epstopdf)                    size: 21178 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-1-ksum1lambda0nnx4QP1png-eps-converted-to.pdf ./i
+mages/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum1lambda0nnx4QP1png.e
+ps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum1lambda0nnx4QP1p
+ng-eps-converted-to.pdf, id=646, 439.6425pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum1lambda0nnx
+4QP1png-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum1lambda0nnx4
+QP1png-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-1-ksum1lambda0nnx4QP1png-eps-converted-to.pdf used on input line 52.
+(pdftex.def)             Requested size: 85.18668pt x 72.34738pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-0-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:14:43
+(epstopdf)                    size: 105455 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-0-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:20
+(epstopdf)                    size: 43433 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-0-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthet
+icbary/Diag2-syntheticrho-0-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-0-ksum1lambda0nnx4QP1-eps-converte
+d-to.pdf, id=647, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-0-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-0-ksum1lambda0nnx4QP1-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-0-ksum1lam
+bda0nnx4QP1-eps-converted-to.pdf used on input line 53.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-03-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:23:12
+(epstopdf)                    size: 105456 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-03-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:20
+(epstopdf)                    size: 21549 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-03-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthe
+ticbary/Diag2-syntheticrho-03-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-03-ksum1lambda0nnx4QP1-eps-convert
+ed-to.pdf, id=648, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-03-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-03-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-03-ksum1la
+mbda0nnx4QP1-eps-converted-to.pdf used on input line 54.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-06-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:32:26
+(epstopdf)                    size: 105456 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-06-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:20
+(epstopdf)                    size: 44952 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-06-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthe
+ticbary/Diag2-syntheticrho-06-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-06-ksum1lambda0nnx4QP1-eps-convert
+ed-to.pdf, id=649, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-06-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-06-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-06-ksum1la
+mbda0nnx4QP1-eps-converted-to.pdf used on input line 55.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-1-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:33:12
+(epstopdf)                    size: 105455 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-1-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:21
+(epstopdf)                    size: 25241 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-1-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthet
+icbary/Diag2-syntheticrho-1-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-1-ksum1lambda0nnx4QP1-eps-converte
+d-to.pdf, id=650, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-1-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-1-ksum1lambda0nnx4QP1-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-1-ksum1lam
+bda0nnx4QP1-eps-converted-to.pdf used on input line 56.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-0-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:14:42
+(epstopdf)                    size: 105455 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-0-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:21
+(epstopdf)                    size: 47075 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-0-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthet
+icbary/Diag1-syntheticrho-0-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-0-ksum1lambda0nnx4QP1-eps-converte
+d-to.pdf, id=651, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-0-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-0-ksum1lambda0nnx4QP1-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-0-ksum1lam
+bda0nnx4QP1-eps-converted-to.pdf used on input line 57.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-03-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:23:11
+(epstopdf)                    size: 105456 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-03-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:22
+(epstopdf)                    size: 46887 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-03-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthe
+ticbary/Diag1-syntheticrho-03-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-03-ksum1lambda0nnx4QP1-eps-convert
+ed-to.pdf, id=652, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-03-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-03-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-03-ksum1la
+mbda0nnx4QP1-eps-converted-to.pdf used on input line 58.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-06-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:32:24
+(epstopdf)                    size: 105456 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-06-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:22
+(epstopdf)                    size: 46413 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-06-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthe
+ticbary/Diag1-syntheticrho-06-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-06-ksum1lambda0nnx4QP1-eps-convert
+ed-to.pdf, id=653, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-06-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-06-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-06-ksum1la
+mbda0nnx4QP1-eps-converted-to.pdf used on input line 59.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-1-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-22 13:33:11
+(epstopdf)                    size: 105455 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-1-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-22 14:27:23
+(epstopdf)                    size: 42930 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-1-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./synthet
+icbary/Diag1-syntheticrho-1-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-1-ksum1lambda0nnx4QP1-eps-converte
+d-to.pdf, id=654, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-1-ksum1lambda0nnx4QP1-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-1-ksum1lambda0nnx4QP1-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-1-ksum1lam
+bda0nnx4QP1-eps-converted-to.pdf used on input line 60.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-0-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 13:13:08
+(epstopdf)                    size: 54014 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-0-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 17:16:27
+(epstopdf)                    size: 18662 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-0-ksum20lambda00005nnx4QP1-eps-converted-to.pdf .
+/images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum20lambda00005nnx4Q
+P1.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum20lambda00005nnx
+4QP1-eps-converted-to.pdf, id=655, 443.6575pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum20lambda000
+05nnx4QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum20lambda0000
+5nnx4QP1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-0-ksum20lambda00005nnx4QP1-eps-converted-to.pdf used on input line 62.
+(pdftex.def)             Requested size: 85.18668pt x 71.69215pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-03-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 13:21:59
+(epstopdf)                    size: 53693 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-03-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 17:16:28
+(epstopdf)                    size: 21994 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-03-ksum20lambda00005nnx4QP1-eps-converted-to.pdf 
+./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum20lambda00005nnx
+4QP1.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum20lambda00005nn
+x4QP1-eps-converted-to.pdf, id=656, 443.6575pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum20lambda00
+005nnx4QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-03-ksum20lambda000
+05nnx4QP1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-03-ksum20lambda00005nnx4QP1-eps-converted-to.pdf used on input line 63.
+(pdftex.def)             Requested size: 85.18668pt x 71.69215pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-06-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 13:30:31
+(epstopdf)                    size: 51393 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-06-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 17:16:28
+(epstopdf)                    size: 21163 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-06-ksum20lambda00005nnx4QP1-eps-converted-to.pdf 
+./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum20lambda00005nnx
+4QP1.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum20lambda00005nn
+x4QP1-eps-converted-to.pdf, id=657, 443.6575pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum20lambda00
+005nnx4QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum20lambda000
+05nnx4QP1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-06-ksum20lambda00005nnx4QP1-eps-converted-to.pdf used on input line 64.
+(pdftex.def)             Requested size: 85.18668pt x 71.69215pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-1-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 17:25:24
+(epstopdf)                    size: 61765 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-1-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 17:26:02
+(epstopdf)                    size: 20131 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/B
+arycenter_DiagsyntheticINVrho-1-ksum20lambda00005nnx4QP1-eps-converted-to.pdf .
+/images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum20lambda00005nnx4Q
+P1.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum20lambda00005nnx
+4QP1-eps-converted-to.pdf, id=658, 443.6575pt x 373.395pt>
+File: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum20lambda000
+05nnx4QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum20lambda0000
+5nnx4QP1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Barycenter_DiagsyntheticINVrh
+o-1-ksum20lambda00005nnx4QP1-eps-converted-to.pdf used on input line 65.
+(pdftex.def)             Requested size: 85.18668pt x 71.69215pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-01-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:19:25
+(epstopdf)                    size: 105463 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-01-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:16
+(epstopdf)                    size: 43419 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-01-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/./s
+yntheticbary/Diag2-syntheticrho-01-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-01-ksum20lambda00005nnx4QP1-eps-co
+nverted-to.pdf, id=659, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-01-ksum20lambda00005nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-01-ksum20lambda00005nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-01-ksum20l
+ambda00005nnx4QP1-eps-converted-to.pdf used on input line 66.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-0307-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:28:19
+(epstopdf)                    size: 105472 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-0307-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:15
+(epstopdf)                    size: 16169 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-0307-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/.
+/syntheticbary/Diag2-syntheticrho-0307-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-0307-ksum20lambda00005nnx4QP1-eps-
+converted-to.pdf, id=660, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-0307-ksum20lambda00005nnx4QP1
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-0307-ksum20lambda00005nnx4QP1-
+eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-0307-ksum2
+0lambda00005nnx4QP1-eps-converted-to.pdf used on input line 67.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-0604-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:37:32
+(epstopdf)                    size: 105472 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-0604-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:15
+(epstopdf)                    size: 14568 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-0604-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/.
+/syntheticbary/Diag2-syntheticrho-0604-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-0604-ksum20lambda00005nnx4QP1-eps-
+converted-to.pdf, id=661, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-0604-ksum20lambda00005nnx4QP1
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-0604-ksum20lambda00005nnx4QP1-
+eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-0604-ksum2
+0lambda00005nnx4QP1-eps-converted-to.pdf used on input line 68.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag2-syntheticrh
+o-10-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:45:02
+(epstopdf)                    size: 105463 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag2-syntheticrh
+o-10-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:15
+(epstopdf)                    size: 11044 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag2-syntheticrho-10-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/./s
+yntheticbary/Diag2-syntheticrho-10-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag2-syntheticrho-10-ksum20lambda00005nnx4QP1-eps-co
+nverted-to.pdf, id=662, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag2-syntheticrho-10-ksum20lambda00005nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag2-syntheticrho-10-ksum20lambda00005nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag2-syntheticrho-10-ksum20l
+ambda00005nnx4QP1-eps-converted-to.pdf used on input line 69.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-01-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:19:24
+(epstopdf)                    size: 105463 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-01-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:14
+(epstopdf)                    size: 14707 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-01-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/./s
+yntheticbary/Diag1-syntheticrho-01-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 70.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-01-ksum20lambda00005nnx4QP1-eps-co
+nverted-to.pdf, id=663, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-01-ksum20lambda00005nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-01-ksum20lambda00005nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-01-ksum20l
+ambda00005nnx4QP1-eps-converted-to.pdf used on input line 70.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-0307-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:28:18
+(epstopdf)                    size: 105472 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-0307-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:14
+(epstopdf)                    size: 13270 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-0307-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/.
+/syntheticbary/Diag1-syntheticrho-0307-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-0307-ksum20lambda00005nnx4QP1-eps-
+converted-to.pdf, id=664, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-0307-ksum20lambda00005nnx4QP1
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-0307-ksum20lambda00005nnx4QP1-
+eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-0307-ksum2
+0lambda00005nnx4QP1-eps-converted-to.pdf used on input line 71.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-0604-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:37:31
+(epstopdf)                    size: 105472 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-0604-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:14
+(epstopdf)                    size: 15553 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-0604-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/.
+/syntheticbary/Diag1-syntheticrho-0604-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-0604-ksum20lambda00005nnx4QP1-eps-
+converted-to.pdf, id=665, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-0604-ksum20lambda00005nnx4QP1
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-0604-ksum20lambda00005nnx4QP1-
+eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-0604-ksum2
+0lambda00005nnx4QP1-eps-converted-to.pdf used on input line 72.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+Package epstopdf Info: Source file: <./images/./syntheticbary/Diag1-syntheticrh
+o-10-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-13 11:45:01
+(epstopdf)                    size: 105463 bytes
+(epstopdf)             Output file: <./images/./syntheticbary/Diag1-syntheticrh
+o-10-ksum20lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 12:34:15
+(epstopdf)                    size: 17434 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./syntheticbary/D
+iag1-syntheticrho-10-ksum20lambda00005nnx4QP1-eps-converted-to.pdf ./images/./s
+yntheticbary/Diag1-syntheticrho-10-ksum20lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./syntheticbary/Diag1-syntheticrho-10-ksum20lambda00005nnx4QP1-eps-co
+nverted-to.pdf, id=666, 280.04625pt x 280.04625pt>
+File: ./images/./syntheticbary/Diag1-syntheticrho-10-ksum20lambda00005nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./syntheticbary/Diag1-syntheticrho-10-ksum20lambda00005nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./syntheticbary/Diag1-syntheticrho-10-ksum20l
+ambda00005nnx4QP1-eps-converted-to.pdf used on input line 73.
+(pdftex.def)             Requested size: 85.18535pt x 74.07515pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75  \caption
+              {Comparison of classical OT (top 3 first rows) and relaxed/reg...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 }
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 }
+      
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21]
+
+LaTeX Warning: Text page 22 contains only floats.
+
+
+Overfull \vbox (0.46394pt too high) has occurred while \output is active []
+
+
+[22 <./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-0-ksum1lambda0nnx4
+QP1png-eps-converted-to.pdf> <./images/./syntheticbary/Barycenter_Diagsynthetic
+INVrho-03-ksum1lambda0nnx4QP1png-eps-converted-to.pdf> <./images/./syntheticbar
+y/Barycenter_DiagsyntheticINVrho-06-ksum1lambda0nnx4QP1png-eps-converted-to.pdf
+> <./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-1-ksum1lambda0nnx4QP
+1png-eps-converted-to.pdf> <./images/./syntheticbary/Diag2-syntheticrho-0-ksum1
+lambda0nnx4QP1-eps-converted-to.pdf> <./images/./syntheticbary/Diag2-syntheticr
+ho-03-ksum1lambda0nnx4QP1-eps-converted-to.pdf> <./images/./syntheticbary/Diag2
+-syntheticrho-06-ksum1lambda0nnx4QP1-eps-converted-to.pdf> <./images/./syntheti
+cbary/Diag2-syntheticrho-1-ksum1lambda0nnx4QP1-eps-converted-to.pdf> <./images/
+./syntheticbary/Diag1-syntheticrho-0-ksum1lambda0nnx4QP1-eps-converted-to.pdf> 
+<./images/./syntheticbary/Diag1-syntheticrho-03-ksum1lambda0nnx4QP1-eps-convert
+ed-to.pdf> <./images/./syntheticbary/Diag1-syntheticrho-06-ksum1lambda0nnx4QP1-
+eps-converted-to.pdf> <./images/./syntheticbary/Diag1-syntheticrho-1-ksum1lambd
+a0nnx4QP1-eps-converted-to.pdf> <./images/./syntheticbary/Barycenter_Diagsynthe
+ticINVrho-0-ksum20lambda00005nnx4QP1-eps-converted-to.pdf> <./images/./syntheti
+cbary/Barycenter_DiagsyntheticINVrho-03-ksum20lambda00005nnx4QP1-eps-converted-
+to.pdf> <./images/./syntheticbary/Barycenter_DiagsyntheticINVrho-06-ksum20lambd
+a00005nnx4QP1-eps-converted-to.pdf> <./images/./syntheticbary/Barycenter_Diagsy
+ntheticINVrho-1-ksum20lambda00005nnx4QP1-eps-converted-to.pdf> <./images/./synt
+heticbary/Diag2-syntheticrho-01-ksum20lambda00005nnx4QP1-eps-converted-to.pdf> 
+<./images/./syntheticbary/Diag2-syntheticrho-0307-ksum20lambda00005nnx4QP1-eps-
+converted-to.pdf> <./images/./syntheticbary/Diag2-syntheticrho-0604-ksum20lambd
+a00005nnx4QP1-eps-converted-to.pdf> <./images/./syntheticbary/Diag2-syntheticrh
+o-10-ksum20lambda00005nnx4QP1-eps-converted-to.pdf> <./images/./syntheticbary/D
+iag1-syntheticrho-01-ksum20lambda00005nnx4QP1-eps-converted-to.pdf> <./images/.
+/syntheticbary/Diag1-syntheticrho-0307-ksum20lambda00005nnx4QP1-eps-converted-t
+o.pdf> <./images/./syntheticbary/Diag1-syntheticrho-0604-ksum20lambda00005nnx4Q
+P1-eps-converted-to.pdf> <./images/./syntheticbary/Diag1-syntheticrho-10-ksum20
+lambda00005nnx4QP1-eps-converted-to.pdf>]
+File: ./images/star/fleur_1.jpg Graphic file (type jpg)
+ <use ./images/star/fleur_1.jpg>
+Package pdftex.def Info: ./images/star/fleur_1.jpg used on input line 101.
+(pdftex.def)             Requested size: 96.29723pt x 81.47704pt.
+File: ./images/star/wheat_1.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_1.jpg>
+Package pdftex.def Info: ./images/star/wheat_1.jpg used on input line 102.
+(pdftex.def)             Requested size: 96.29723pt x 81.48322pt.
+File: ./images/star/parrot_1.jpg Graphic file (type jpg)
+ <use ./images/star/parrot_1.jpg>
+Package pdftex.def Info: ./images/star/parrot_1.jpg used on input line 103.
+(pdftex.def)             Requested size: 96.29703pt x 81.4839pt.
+Package epstopdf Info: Source file: <./images/barycenter/DiagYfleurrho-1-ksum11
+lambda00009nnx4QP1.eps>
+(epstopdf)                    date: 2013-05-27 01:44:46
+(epstopdf)                    size: 1586157 bytes
+(epstopdf)             Output file: <./images/barycenter/DiagYfleurrho-1-ksum11
+lambda00009nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-27 11:06:48
+(epstopdf)                    size: 121293 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/DiagYf
+leurrho-1-ksum11lambda00009nnx4QP1-eps-converted-to.pdf ./images/barycenter/Dia
+gYfleurrho-1-ksum11lambda00009nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/DiagYfleurrho-1-ksum11lambda00009nnx4QP1-eps-converted-to.
+pdf, id=755, 385.44pt x 385.44pt>
+File: ./images/barycenter/DiagYfleurrho-1-ksum11lambda00009nnx4QP1-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/DiagYfleurrho-1-ksum11lambda00009nnx4QP1-eps-converted
+-to.pdf>
+Package pdftex.def Info: ./images/barycenter/DiagYfleurrho-1-ksum11lambda00009n
+nx4QP1-eps-converted-to.pdf used on input line 105.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/wheat/Diag1-wheatrho-1
+-ksum13lambda001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 16:30:30
+(epstopdf)                    size: 1586155 bytes
+(epstopdf)             Output file: <./images/barycenter/wheat/Diag1-wheatrho-1
+-ksum13lambda001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 17:50:05
+(epstopdf)                    size: 98379 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/wheat/
+Diag1-wheatrho-1-ksum13lambda001nnx4QP1-eps-converted-to.pdf ./images/barycente
+r/wheat/Diag1-wheatrho-1-ksum13lambda001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/wheat/Diag1-wheatrho-1-ksum13lambda001nnx4QP1-eps-converte
+d-to.pdf, id=756, 385.44pt x 385.44pt>
+File: ./images/barycenter/wheat/Diag1-wheatrho-1-ksum13lambda001nnx4QP1-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/wheat/Diag1-wheatrho-1-ksum13lambda001nnx4QP1-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/wheat/Diag1-wheatrho-1-ksum13lambd
+a001nnx4QP1-eps-converted-to.pdf used on input line 106.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/parrot/Diag1-parrotrho
+-1-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 13:43:08
+(epstopdf)                    size: 1586157 bytes
+(epstopdf)             Output file: <./images/barycenter/parrot/Diag1-parrotrho
+-1-ksum1lambda0001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 13:47:52
+(epstopdf)                    size: 70611 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/parrot
+/Diag1-parrotrho-1-ksum1lambda0001nnx4QP1-eps-converted-to.pdf ./images/barycen
+ter/parrot/Diag1-parrotrho-1-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/parrot/Diag1-parrotrho-1-ksum1lambda0001nnx4QP1-eps-conver
+ted-to.pdf, id=757, 385.44pt x 385.44pt>
+File: ./images/barycenter/parrot/Diag1-parrotrho-1-ksum1lambda0001nnx4QP1-eps-c
+onverted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/parrot/Diag1-parrotrho-1-ksum1lambda0001nnx4QP1-eps-co
+nverted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/parrot/Diag1-parrotrho-1-ksum1lamb
+da0001nnx4QP1-eps-converted-to.pdf used on input line 107.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/DiagYfleurrho-06-ksum1
+1lambda00009nnx4QP1.eps>
+(epstopdf)                    date: 2013-05-27 00:58:53
+(epstopdf)                    size: 1586158 bytes
+(epstopdf)             Output file: <./images/barycenter/DiagYfleurrho-06-ksum1
+1lambda00009nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-27 11:06:48
+(epstopdf)                    size: 130282 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/DiagYf
+leurrho-06-ksum11lambda00009nnx4QP1-eps-converted-to.pdf ./images/barycenter/Di
+agYfleurrho-06-ksum11lambda00009nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/DiagYfleurrho-06-ksum11lambda00009nnx4QP1-eps-converted-to
+.pdf, id=758, 385.44pt x 385.44pt>
+File: ./images/barycenter/DiagYfleurrho-06-ksum11lambda00009nnx4QP1-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/DiagYfleurrho-06-ksum11lambda00009nnx4QP1-eps-converte
+d-to.pdf>
+Package pdftex.def Info: ./images/barycenter/DiagYfleurrho-06-ksum11lambda00009
+nnx4QP1-eps-converted-to.pdf used on input line 109.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/wheat/Diag1-wheatrho-0
+6-ksum13lambda001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 15:42:33
+(epstopdf)                    size: 1586156 bytes
+(epstopdf)             Output file: <./images/barycenter/wheat/Diag1-wheatrho-0
+6-ksum13lambda001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 17:50:05
+(epstopdf)                    size: 109880 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/wheat/
+Diag1-wheatrho-06-ksum13lambda001nnx4QP1-eps-converted-to.pdf ./images/barycent
+er/wheat/Diag1-wheatrho-06-ksum13lambda001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/wheat/Diag1-wheatrho-06-ksum13lambda001nnx4QP1-eps-convert
+ed-to.pdf, id=759, 385.44pt x 385.44pt>
+File: ./images/barycenter/wheat/Diag1-wheatrho-06-ksum13lambda001nnx4QP1-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/wheat/Diag1-wheatrho-06-ksum13lambda001nnx4QP1-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/wheat/Diag1-wheatrho-06-ksum13lamb
+da001nnx4QP1-eps-converted-to.pdf used on input line 110.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/parrot/Diag1-parrotrho
+-06-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 13:00:34
+(epstopdf)                    size: 1586158 bytes
+(epstopdf)             Output file: <./images/barycenter/parrot/Diag1-parrotrho
+-06-ksum1lambda0001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 13:47:53
+(epstopdf)                    size: 81122 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/parrot
+/Diag1-parrotrho-06-ksum1lambda0001nnx4QP1-eps-converted-to.pdf ./images/baryce
+nter/parrot/Diag1-parrotrho-06-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/parrot/Diag1-parrotrho-06-ksum1lambda0001nnx4QP1-eps-conve
+rted-to.pdf, id=760, 385.44pt x 385.44pt>
+File: ./images/barycenter/parrot/Diag1-parrotrho-06-ksum1lambda0001nnx4QP1-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/parrot/Diag1-parrotrho-06-ksum1lambda0001nnx4QP1-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/parrot/Diag1-parrotrho-06-ksum1lam
+bda0001nnx4QP1-eps-converted-to.pdf used on input line 111.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/DiagYfleurrho-03-ksum1
+1lambda00009nnx4QP1.eps>
+(epstopdf)                    date: 2013-05-27 00:13:07
+(epstopdf)                    size: 1586158 bytes
+(epstopdf)             Output file: <./images/barycenter/DiagYfleurrho-03-ksum1
+1lambda00009nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-27 11:06:48
+(epstopdf)                    size: 137781 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/DiagYf
+leurrho-03-ksum11lambda00009nnx4QP1-eps-converted-to.pdf ./images/barycenter/Di
+agYfleurrho-03-ksum11lambda00009nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/DiagYfleurrho-03-ksum11lambda00009nnx4QP1-eps-converted-to
+.pdf, id=761, 385.44pt x 385.44pt>
+File: ./images/barycenter/DiagYfleurrho-03-ksum11lambda00009nnx4QP1-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/DiagYfleurrho-03-ksum11lambda00009nnx4QP1-eps-converte
+d-to.pdf>
+Package pdftex.def Info: ./images/barycenter/DiagYfleurrho-03-ksum11lambda00009
+nnx4QP1-eps-converted-to.pdf used on input line 113.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/wheat/Diag1-wheatrho-0
+3-ksum13lambda001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 14:53:40
+(epstopdf)                    size: 1586156 bytes
+(epstopdf)             Output file: <./images/barycenter/wheat/Diag1-wheatrho-0
+3-ksum13lambda001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 17:50:05
+(epstopdf)                    size: 118768 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/wheat/
+Diag1-wheatrho-03-ksum13lambda001nnx4QP1-eps-converted-to.pdf ./images/barycent
+er/wheat/Diag1-wheatrho-03-ksum13lambda001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/wheat/Diag1-wheatrho-03-ksum13lambda001nnx4QP1-eps-convert
+ed-to.pdf, id=762, 385.44pt x 385.44pt>
+File: ./images/barycenter/wheat/Diag1-wheatrho-03-ksum13lambda001nnx4QP1-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/wheat/Diag1-wheatrho-03-ksum13lambda001nnx4QP1-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/wheat/Diag1-wheatrho-03-ksum13lamb
+da001nnx4QP1-eps-converted-to.pdf used on input line 114.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/parrot/Diag1-parrotrho
+-03-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 12:12:15
+(epstopdf)                    size: 1586158 bytes
+(epstopdf)             Output file: <./images/barycenter/parrot/Diag1-parrotrho
+-03-ksum1lambda0001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 13:47:53
+(epstopdf)                    size: 90851 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/parrot
+/Diag1-parrotrho-03-ksum1lambda0001nnx4QP1-eps-converted-to.pdf ./images/baryce
+nter/parrot/Diag1-parrotrho-03-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 115.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/parrot/Diag1-parrotrho-03-ksum1lambda0001nnx4QP1-eps-conve
+rted-to.pdf, id=763, 385.44pt x 385.44pt>
+File: ./images/barycenter/parrot/Diag1-parrotrho-03-ksum1lambda0001nnx4QP1-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/parrot/Diag1-parrotrho-03-ksum1lambda0001nnx4QP1-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/parrot/Diag1-parrotrho-03-ksum1lam
+bda0001nnx4QP1-eps-converted-to.pdf used on input line 115.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/DiagYfleurrho-0-ksum11
+lambda00009nnx4QP1.eps>
+(epstopdf)                    date: 2013-05-26 23:26:41
+(epstopdf)                    size: 1586157 bytes
+(epstopdf)             Output file: <./images/barycenter/DiagYfleurrho-0-ksum11
+lambda00009nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-27 11:06:48
+(epstopdf)                    size: 146157 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/DiagYf
+leurrho-0-ksum11lambda00009nnx4QP1-eps-converted-to.pdf ./images/barycenter/Dia
+gYfleurrho-0-ksum11lambda00009nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/DiagYfleurrho-0-ksum11lambda00009nnx4QP1-eps-converted-to.
+pdf, id=764, 385.44pt x 385.44pt>
+File: ./images/barycenter/DiagYfleurrho-0-ksum11lambda00009nnx4QP1-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/DiagYfleurrho-0-ksum11lambda00009nnx4QP1-eps-converted
+-to.pdf>
+Package pdftex.def Info: ./images/barycenter/DiagYfleurrho-0-ksum11lambda00009n
+nx4QP1-eps-converted-to.pdf used on input line 117.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/wheat/Diag1-wheatrho-0
+-ksum13lambda001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 14:05:51
+(epstopdf)                    size: 1586155 bytes
+(epstopdf)             Output file: <./images/barycenter/wheat/Diag1-wheatrho-0
+-ksum13lambda001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 17:50:06
+(epstopdf)                    size: 130641 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/wheat/
+Diag1-wheatrho-0-ksum13lambda001nnx4QP1-eps-converted-to.pdf ./images/barycente
+r/wheat/Diag1-wheatrho-0-ksum13lambda001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/wheat/Diag1-wheatrho-0-ksum13lambda001nnx4QP1-eps-converte
+d-to.pdf, id=765, 385.44pt x 385.44pt>
+File: ./images/barycenter/wheat/Diag1-wheatrho-0-ksum13lambda001nnx4QP1-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/wheat/Diag1-wheatrho-0-ksum13lambda001nnx4QP1-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/wheat/Diag1-wheatrho-0-ksum13lambd
+a001nnx4QP1-eps-converted-to.pdf used on input line 118.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+Package epstopdf Info: Source file: <./images/barycenter/parrot/Diag1-parrotrho
+-0-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-14 11:28:04
+(epstopdf)                    size: 1586157 bytes
+(epstopdf)             Output file: <./images/barycenter/parrot/Diag1-parrotrho
+-0-ksum1lambda0001nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-14 13:47:56
+(epstopdf)                    size: 101695 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/barycenter/parrot
+/Diag1-parrotrho-0-ksum1lambda0001nnx4QP1-eps-converted-to.pdf ./images/barycen
+ter/parrot/Diag1-parrotrho-0-ksum1lambda0001nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/barycenter/parrot/Diag1-parrotrho-0-ksum1lambda0001nnx4QP1-eps-conver
+ted-to.pdf, id=766, 385.44pt x 385.44pt>
+File: ./images/barycenter/parrot/Diag1-parrotrho-0-ksum1lambda0001nnx4QP1-eps-c
+onverted-to.pdf Graphic file (type pdf)
+
+<use ./images/barycenter/parrot/Diag1-parrotrho-0-ksum1lambda0001nnx4QP1-eps-co
+nverted-to.pdf>
+Package pdftex.def Info: ./images/barycenter/parrot/Diag1-parrotrho-0-ksum1lamb
+da0001nnx4QP1-eps-converted-to.pdf used on input line 119.
+(pdftex.def)             Requested size: 96.29506pt x 81.47998pt.
+File: ./images/star/fleur_2.jpg Graphic file (type jpg)
+ <use ./images/star/fleur_2.jpg>
+Package pdftex.def Info: ./images/star/fleur_2.jpg used on input line 121.
+(pdftex.def)             Requested size: 96.29858pt x 81.4835pt.
+File: ./images/star/wheat_2.jpg Graphic file (type jpg)
+
+<use ./images/star/wheat_2.jpg>
+Package pdftex.def Info: ./images/star/wheat_2.jpg used on input line 122.
+(pdftex.def)             Requested size: 96.29915pt x 81.48311pt.
+File: ./images/star/parrot_2.jpg Graphic file (type jpg)
+ <use ./images/star/parrot_2.jpg>
+Package pdftex.def Info: ./images/star/parrot_2.jpg used on input line 123.
+(pdftex.def)             Requested size: 96.29951pt x 81.48608pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 \caption
+              {Results for the barycenter algorithm on different images comp...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 ... similar to the histogram of $X^{0[2]}$.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.126 ... similar to the histogram of $X^{0[2]}$.}
+                                                  
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/./barycenter/flowers/flowers-1.jpg, id=783, 513.92pt x 513.92pt>
+File: ./images/./barycenter/flowers/flowers-1.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/flowers/flowers-1.jpg>
+Package pdftex.def Info: ./images/./barycenter/flowers/flowers-1.jpg used on in
+put line 156.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/flowers/flowers-2.jpg, id=784, 205.568pt x 205.568pt>
+File: ./images/./barycenter/flowers/flowers-2.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/flowers/flowers-2.jpg>
+Package pdftex.def Info: ./images/./barycenter/flowers/flowers-2.jpg used on in
+put line 156.
+(pdftex.def)             Requested size: 103.70906pt x 96.29701pt.
+
+<./images/./barycenter/flowers/flowers-3.jpg, id=785, 513.92pt x 513.92pt>
+File: ./images/./barycenter/flowers/flowers-3.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/flowers/flowers-3.jpg>
+Package pdftex.def Info: ./images/./barycenter/flowers/flowers-3.jpg used on in
+put line 156.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+Package epstopdf Info: Source file: <./images/./barycenter/flowers/Diag1-OT.eps
+>
+(epstopdf)                    date: 2013-06-17 17:05:44
+(epstopdf)                    size: 1586161 bytes
+(epstopdf)             Output file: <./images/./barycenter/flowers/Diag1-OT-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-06-17 17:57:21
+(epstopdf)                    size: 169615 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/flow
+ers/Diag1-OT-eps-converted-to.pdf ./images/./barycenter/flowers/Diag1-OT.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/flowers/Diag1-OT-eps-converted-to.pdf, id=786, 385.44pt 
+x 385.44pt>
+File: ./images/./barycenter/flowers/Diag1-OT-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use ./images/./barycenter/flowers/Diag1-OT-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/flowers/Diag1-OT-eps-converted-t
+o.pdf used on input line 156.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/flowers/Diag2-OT.eps
+>
+(epstopdf)                    date: 2013-06-17 17:05:47
+(epstopdf)                    size: 1586161 bytes
+(epstopdf)             Output file: <./images/./barycenter/flowers/Diag2-OT-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-06-17 17:57:21
+(epstopdf)                    size: 132283 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/flow
+ers/Diag2-OT-eps-converted-to.pdf ./images/./barycenter/flowers/Diag2-OT.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/flowers/Diag2-OT-eps-converted-to.pdf, id=787, 385.44pt 
+x 385.44pt>
+File: ./images/./barycenter/flowers/Diag2-OT-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use ./images/./barycenter/flowers/Diag2-OT-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/flowers/Diag2-OT-eps-converted-t
+o.pdf used on input line 156.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/flowers/Diag3-OT.eps
+>
+(epstopdf)                    date: 2013-06-17 17:05:50
+(epstopdf)                    size: 1586161 bytes
+(epstopdf)             Output file: <./images/./barycenter/flowers/Diag3-OT-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-06-17 17:57:22
+(epstopdf)                    size: 101858 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/flow
+ers/Diag3-OT-eps-converted-to.pdf ./images/./barycenter/flowers/Diag3-OT.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/flowers/Diag3-OT-eps-converted-to.pdf, id=788, 385.44pt 
+x 385.44pt>
+File: ./images/./barycenter/flowers/Diag3-OT-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use ./images/./barycenter/flowers/Diag3-OT-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/flowers/Diag3-OT-eps-converted-t
+o.pdf used on input line 156.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+
+<./images/./barycenter/nicoflowers1.png, id=789, 513.92pt x 513.92pt>
+File: ./images/./barycenter/nicoflowers1.png Graphic file (type png)
+
+<use ./images/./barycenter/nicoflowers1.png>
+Package pdftex.def Info: ./images/./barycenter/nicoflowers1.png used on input l
+ine 156.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/nicoflowers2.png, id=790, 513.92pt x 513.92pt>
+File: ./images/./barycenter/nicoflowers2.png Graphic file (type png)
+
+<use ./images/./barycenter/nicoflowers2.png>
+Package pdftex.def Info: ./images/./barycenter/nicoflowers2.png used on input l
+ine 156.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/nicoflowers3.png, id=791, 513.92pt x 513.92pt>
+File: ./images/./barycenter/nicoflowers3.png Graphic file (type png)
+
+<use ./images/./barycenter/nicoflowers3.png>
+Package pdftex.def Info: ./images/./barycenter/nicoflowers3.png used on input l
+ine 156.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+Package epstopdf Info: Source file: <./images/./barycenter/flowers/Diag1-flower
+srho-033333-ksum2lambda0005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-17 17:48:52
+(epstopdf)                    size: 1586164 bytes
+(epstopdf)             Output file: <./images/./barycenter/flowers/Diag1-flower
+srho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-17 17:59:21
+(epstopdf)                    size: 104916 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/flow
+ers/Diag1-flowersrho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf ./image
+s/./barycenter/flowers/Diag1-flowersrho-033333-ksum2lambda0005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/flowers/Diag1-flowersrho-033333-ksum2lambda0005nnx4QP1-e
+ps-converted-to.pdf, id=792, 385.44pt x 385.44pt>
+File: ./images/./barycenter/flowers/Diag1-flowersrho-033333-ksum2lambda0005nnx4
+QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/flowers/Diag1-flowersrho-033333-ksum2lambda0005nnx4Q
+P1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/flowers/Diag1-flowersrho-033333-
+ksum2lambda0005nnx4QP1-eps-converted-to.pdf used on input line 156.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/flowers/Diag2-flower
+srho-033333-ksum2lambda0005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-17 17:48:55
+(epstopdf)                    size: 1586164 bytes
+(epstopdf)             Output file: <./images/./barycenter/flowers/Diag2-flower
+srho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-17 17:59:21
+(epstopdf)                    size: 101340 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/flow
+ers/Diag2-flowersrho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf ./image
+s/./barycenter/flowers/Diag2-flowersrho-033333-ksum2lambda0005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/flowers/Diag2-flowersrho-033333-ksum2lambda0005nnx4QP1-e
+ps-converted-to.pdf, id=793, 385.44pt x 385.44pt>
+File: ./images/./barycenter/flowers/Diag2-flowersrho-033333-ksum2lambda0005nnx4
+QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/flowers/Diag2-flowersrho-033333-ksum2lambda0005nnx4Q
+P1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/flowers/Diag2-flowersrho-033333-
+ksum2lambda0005nnx4QP1-eps-converted-to.pdf used on input line 156.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/flowers/Diag3-flower
+srho-033333-ksum2lambda0005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-17 18:01:34
+(epstopdf)                    size: 1586164 bytes
+(epstopdf)             Output file: <./images/./barycenter/flowers/Diag3-flower
+srho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-17 18:02:10
+(epstopdf)                    size: 59292 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/flow
+ers/Diag3-flowersrho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf ./image
+s/./barycenter/flowers/Diag3-flowersrho-033333-ksum2lambda0005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/flowers/Diag3-flowersrho-033333-ksum2lambda0005nnx4QP1-e
+ps-converted-to.pdf, id=794, 385.44pt x 385.44pt>
+File: ./images/./barycenter/flowers/Diag3-flowersrho-033333-ksum2lambda0005nnx4
+QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/flowers/Diag3-flowersrho-033333-ksum2lambda0005nnx4Q
+P1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/flowers/Diag3-flowersrho-033333-
+ksum2lambda0005nnx4QP1-eps-converted-to.pdf used on input line 156.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \caption
+              {In the first row, we show the original images. In the followi...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 ... (c) different colors on the background.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.3}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.157 ... (c) different colors on the background.}
+                                                  
+<./images/./barycenter/clockmontague-1.jpg, id=797, 513.92pt x 513.92pt>
+File: ./images/./barycenter/clockmontague-1.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/clockmontague-1.jpg>
+Package pdftex.def Info: ./images/./barycenter/clockmontague-1.jpg used on inpu
+t line 178.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/clockmontague-2.jpg, id=798, 513.92pt x 513.92pt>
+File: ./images/./barycenter/clockmontague-2.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/clockmontague-2.jpg>
+Package pdftex.def Info: ./images/./barycenter/clockmontague-2.jpg used on inpu
+t line 178.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/clockmontague-3.jpg, id=799, 513.92pt x 513.92pt>
+File: ./images/./barycenter/clockmontague-3.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/clockmontague-3.jpg>
+Package pdftex.def Info: ./images/./barycenter/clockmontague-3.jpg used on inpu
+t line 178.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag1-clockmontaguer
+ho-033333-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-23 03:10:21
+(epstopdf)                    size: 1586173 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag1-clockmontaguer
+ho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-23 12:21:20
+(epstopdf)                    size: 100211 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+1-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./b
+arycenter/Diag1-clockmontaguerho-033333-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag1-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf, id=800, 385.44pt x 385.44pt>
+File: ./images/./barycenter/Diag1-clockmontaguerho-033333-ksum1lambda0nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag1-clockmontaguerho-033333-ksum1lambda0nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag1-clockmontaguerho-033333-ks
+um1lambda0nnx4QP1-eps-converted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag2-clockmontaguer
+ho-033333-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-23 03:10:24
+(epstopdf)                    size: 1586173 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag2-clockmontaguer
+ho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-23 12:21:21
+(epstopdf)                    size: 77975 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+2-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./b
+arycenter/Diag2-clockmontaguerho-033333-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag2-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf, id=801, 385.44pt x 385.44pt>
+File: ./images/./barycenter/Diag2-clockmontaguerho-033333-ksum1lambda0nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag2-clockmontaguerho-033333-ksum1lambda0nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag2-clockmontaguerho-033333-ks
+um1lambda0nnx4QP1-eps-converted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag3-clockmontaguer
+ho-033333-ksum1lambda0nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-23 03:10:27
+(epstopdf)                    size: 1586173 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag3-clockmontaguer
+ho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-23 12:21:21
+(epstopdf)                    size: 123475 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+3-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf ./images/./b
+arycenter/Diag3-clockmontaguerho-033333-ksum1lambda0nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag3-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-co
+nverted-to.pdf, id=802, 385.44pt x 385.44pt>
+File: ./images/./barycenter/Diag3-clockmontaguerho-033333-ksum1lambda0nnx4QP1-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag3-clockmontaguerho-033333-ksum1lambda0nnx4QP1-ep
+s-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag3-clockmontaguerho-033333-ks
+um1lambda0nnx4QP1-eps-converted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+
+<./images/./barycenter/nicoclock1.png, id=803, 513.92pt x 513.92pt>
+File: ./images/./barycenter/nicoclock1.png Graphic file (type png)
+
+<use ./images/./barycenter/nicoclock1.png>
+Package pdftex.def Info: ./images/./barycenter/nicoclock1.png used on input lin
+e 178.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/nicoclock2.png, id=804, 513.92pt x 513.92pt>
+File: ./images/./barycenter/nicoclock2.png Graphic file (type png)
+
+<use ./images/./barycenter/nicoclock2.png>
+Package pdftex.def Info: ./images/./barycenter/nicoclock2.png used on input lin
+e 178.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+
+<./images/./barycenter/nicoclock3.png, id=805, 513.92pt x 513.92pt>
+File: ./images/./barycenter/nicoclock3.png Graphic file (type png)
+
+<use ./images/./barycenter/nicoclock3.png>
+Package pdftex.def Info: ./images/./barycenter/nicoclock3.png used on input lin
+e 178.
+(pdftex.def)             Requested size: 103.7075pt x 96.29703pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag1-clockmontaguer
+ho-033333-ksum13lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-23 02:32:13
+(epstopdf)                    size: 1586178 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag1-clockmontaguer
+ho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-23 02:37:06
+(epstopdf)                    size: 83741 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+1-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf ./image
+s/./barycenter/Diag1-clockmontaguerho-033333-ksum13lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag1-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-e
+ps-converted-to.pdf, id=806, 385.44pt x 385.44pt>
+File: ./images/./barycenter/Diag1-clockmontaguerho-033333-ksum13lambda00005nnx4
+QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag1-clockmontaguerho-033333-ksum13lambda00005nnx4Q
+P1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag1-clockmontaguerho-033333-ks
+um13lambda00005nnx4QP1-eps-converted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag2-clockmontaguer
+ho-033333-ksum13lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-23 02:32:16
+(epstopdf)                    size: 1586178 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag2-clockmontaguer
+ho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-23 02:37:06
+(epstopdf)                    size: 69818 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+2-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf ./image
+s/./barycenter/Diag2-clockmontaguerho-033333-ksum13lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag2-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-e
+ps-converted-to.pdf, id=807, 385.44pt x 385.44pt>
+File: ./images/./barycenter/Diag2-clockmontaguerho-033333-ksum13lambda00005nnx4
+QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag2-clockmontaguerho-033333-ksum13lambda00005nnx4Q
+P1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag2-clockmontaguerho-033333-ks
+um13lambda00005nnx4QP1-eps-converted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag3-clockmontaguer
+ho-033333-ksum13lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-23 02:32:19
+(epstopdf)                    size: 1586178 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag3-clockmontaguer
+ho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-23 02:37:07
+(epstopdf)                    size: 86816 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+3-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf ./image
+s/./barycenter/Diag3-clockmontaguerho-033333-ksum13lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag3-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-e
+ps-converted-to.pdf, id=808, 385.44pt x 385.44pt>
+File: ./images/./barycenter/Diag3-clockmontaguerho-033333-ksum13lambda00005nnx4
+QP1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag3-clockmontaguerho-033333-ksum13lambda00005nnx4Q
+P1-eps-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag3-clockmontaguerho-033333-ks
+um13lambda00005nnx4QP1-eps-converted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 103.70554pt x 96.29506pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \caption
+              {Experiment as in Figure~\ref{barflower} applied on the images...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 ...ky and the clock for images (a) and (c).}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.4}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.179 ...ky and the clock for images (a) and (c).}
+                                                  
+<./images/./barycenter/clockHD-1.jpg, id=813, 401.5pt x 401.5pt>
+File: ./images/./barycenter/clockHD-1.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/clockHD-1.jpg>
+Package pdftex.def Info: ./images/./barycenter/clockHD-1.jpg used on input line
+ 193.
+(pdftex.def)             Requested size: 103.7075pt x 96.29457pt.
+
+<./images/./barycenter/clockHD-2.jpg, id=814, 401.5pt x 401.5pt>
+File: ./images/./barycenter/clockHD-2.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/clockHD-2.jpg>
+Package pdftex.def Info: ./images/./barycenter/clockHD-2.jpg used on input line
+ 193.
+(pdftex.def)             Requested size: 103.7075pt x 96.29457pt.
+
+<./images/./barycenter/clockHD-3.jpg, id=815, 96.36pt x 96.36pt>
+File: ./images/./barycenter/clockHD-3.jpg Graphic file (type jpg)
+
+<use ./images/./barycenter/clockHD-3.jpg>
+Package pdftex.def Info: ./images/./barycenter/clockHD-3.jpg used on input line
+ 193.
+(pdftex.def)             Requested size: 103.70699pt x 96.29797pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag1-clockHDrho-033
+333-ksum11lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-12 18:06:22
+(epstopdf)                    size: 970770 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag1-clockHDrho-033
+333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 00:37:12
+(epstopdf)                    size: 88688 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+1-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf ./images/./ba
+rycenter/Diag1-clockHDrho-033333-ksum11lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag1-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-con
+verted-to.pdf, id=816, 373.395pt x 373.395pt>
+File: ./images/./barycenter/Diag1-clockHDrho-033333-ksum11lambda00005nnx4QP1-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag1-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps
+-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag1-clockHDrho-033333-ksum11la
+mbda00005nnx4QP1-eps-converted-to.pdf used on input line 193.
+(pdftex.def)             Requested size: 103.70665pt x 96.29414pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag2-clockHDrho-033
+333-ksum11lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-12 18:06:25
+(epstopdf)                    size: 970770 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag2-clockHDrho-033
+333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 00:37:13
+(epstopdf)                    size: 90290 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+2-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf ./images/./ba
+rycenter/Diag2-clockHDrho-033333-ksum11lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag2-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-con
+verted-to.pdf, id=817, 373.395pt x 373.395pt>
+File: ./images/./barycenter/Diag2-clockHDrho-033333-ksum11lambda00005nnx4QP1-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag2-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps
+-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag2-clockHDrho-033333-ksum11la
+mbda00005nnx4QP1-eps-converted-to.pdf used on input line 193.
+(pdftex.def)             Requested size: 103.70665pt x 96.29414pt.
+Package epstopdf Info: Source file: <./images/./barycenter/Diag3-clockHDrho-033
+333-ksum11lambda00005nnx4QP1.eps>
+(epstopdf)                    date: 2013-06-12 18:06:28
+(epstopdf)                    size: 970770 bytes
+(epstopdf)             Output file: <./images/./barycenter/Diag3-clockHDrho-033
+333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-13 00:37:13
+(epstopdf)                    size: 120901 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images/./barycenter/Diag
+3-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf ./images/./ba
+rycenter/Diag3-clockHDrho-033333-ksum11lambda00005nnx4QP1.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images/./barycenter/Diag3-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-con
+verted-to.pdf, id=818, 373.395pt x 373.395pt>
+File: ./images/./barycenter/Diag3-clockHDrho-033333-ksum11lambda00005nnx4QP1-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/./barycenter/Diag3-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps
+-converted-to.pdf>
+Package pdftex.def Info: ./images/./barycenter/Diag3-clockHDrho-033333-ksum11la
+mbda00005nnx4QP1-eps-converted-to.pdf used on input line 193.
+(pdftex.def)             Requested size: 103.70665pt x 96.29414pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \caption
+              {The proposed method can be applied as a preprocessing step in...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 ...lumination conditions of all the images.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.5}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.194 ...lumination conditions of all the images.}
+                                                  )
+(./sections/sec-conclusion.tex)
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [23]
+
+LaTeX Warning: Text page 24 contains only floats.
+
+[24 <./images/barycenter/DiagYfleurrho-1-ksum11lambda00009nnx4QP1-eps-converted
+-to.pdf> <./images/barycenter/wheat/Diag1-wheatrho-1-ksum13lambda001nnx4QP1-eps
+-converted-to.pdf> <./images/barycenter/parrot/Diag1-parrotrho-1-ksum1lambda000
+1nnx4QP1-eps-converted-to.pdf> <./images/barycenter/DiagYfleurrho-06-ksum11lamb
+da00009nnx4QP1-eps-converted-to.pdf> <./images/barycenter/wheat/Diag1-wheatrho-
+06-ksum13lambda001nnx4QP1-eps-converted-to.pdf> <./images/barycenter/parrot/Dia
+g1-parrotrho-06-ksum1lambda0001nnx4QP1-eps-converted-to.pdf> <./images/barycent
+er/DiagYfleurrho-03-ksum11lambda00009nnx4QP1-eps-converted-to.pdf> <./images/ba
+rycenter/wheat/Diag1-wheatrho-03-ksum13lambda001nnx4QP1-eps-converted-to.pdf> <
+./images/barycenter/parrot/Diag1-parrotrho-03-ksum1lambda0001nnx4QP1-eps-conver
+ted-to.pdf> <./images/barycenter/DiagYfleurrho-0-ksum11lambda00009nnx4QP1-eps-c
+onverted-to.pdf> <./images/barycenter/wheat/Diag1-wheatrho-0-ksum13lambda001nnx
+4QP1-eps-converted-to.pdf> <./images/barycenter/parrot/Diag1-parrotrho-0-ksum1l
+ambda0001nnx4QP1-eps-converted-to.pdf>] (./siims-regularized-ot.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./images/./barycenter/flowers/flowers-1.jpg> <./images/./barycenter/flowe
+rs/flowers-2.jpg> <./images/./barycenter/flowers/flowers-3.jpg> <./images/./bar
+ycenter/flowers/Diag1-OT-eps-converted-to.pdf> <./images/./barycenter/flowers/D
+iag2-OT-eps-converted-to.pdf> <./images/./barycenter/flowers/Diag3-OT-eps-conve
+rted-to.pdf> <./images/./barycenter/nicoflowers1.png (PNG copy)> <./images/./ba
+rycenter/nicoflowers2.png (PNG copy)> <./images/./barycenter/nicoflowers3.png (
+PNG copy)> <./images/./barycenter/flowers/Diag1-flowersrho-033333-ksum2lambda00
+05nnx4QP1-eps-converted-to.pdf> <./images/./barycenter/flowers/Diag2-flowersrho
+-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf> <./images/./barycenter/flo
+wers/Diag3-flowersrho-033333-ksum2lambda0005nnx4QP1-eps-converted-to.pdf>] [26 
+<./images/./barycenter/clockmontague-1.jpg> <./images/./barycenter/clockmontagu
+e-2.jpg> <./images/./barycenter/clockmontague-3.jpg> <./images/./barycenter/Dia
+g1-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-converted-to.pdf> <./images/
+./barycenter/Diag2-clockmontaguerho-033333-ksum1lambda0nnx4QP1-eps-converted-to
+.pdf> <./images/./barycenter/Diag3-clockmontaguerho-033333-ksum1lambda0nnx4QP1-
+eps-converted-to.pdf> <./images/./barycenter/nicoclock1.png (PNG copy)> <./imag
+es/./barycenter/nicoclock2.png (PNG copy)> <./images/./barycenter/nicoclock3.pn
+g (PNG copy)> <./images/./barycenter/Diag1-clockmontaguerho-033333-ksum13lambda
+00005nnx4QP1-eps-converted-to.pdf> <./images/./barycenter/Diag2-clockmontaguerh
+o-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf> <./images/./barycenter/
+Diag3-clockmontaguerho-033333-ksum13lambda00005nnx4QP1-eps-converted-to.pdf>]
+Underfull \vbox (badness 3158) has occurred while \output is active []
+
+ [27 <./images/./barycenter/clockHD-1.jpg> <./images/./barycenter/clockHD-2.jpg
+> <./images/./barycenter/clockHD-3.jpg> <./images/./barycenter/Diag1-clockHDrho
+-033333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf> <./images/./barycenter/D
+iag2-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-converted-to.pdf> <./images
+/./barycenter/Diag3-clockHDrho-033333-ksum11lambda00005nnx4QP1-eps-converted-to
+.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+
+[29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+ (./siims-regularized-ot.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package rerunfilecheck Info: File `siims-regularized-ot.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+ ) 
+Here is how much of TeX's memory you used:
+ 9395 strings out of 493014
+ 161573 string characters out of 6133351
+ 264339 words of memory out of 5000000
+ 12467 multiletter control sequences out of 15000+600000
+ 10883 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 32i,14n,35p,1686b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on siims-regularized-ot.pdf (29 pages, 16094960 bytes).
+PDF statistics:
+ 1060 PDF objects out of 1200 (max. 8388607)
+ 761 compressed objects within 8 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 696 words of extra memory for PDF output out of 10000 (max. 10000000)
+

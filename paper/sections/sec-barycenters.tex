@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Regularized OT Barycenters}\label{sec-barycenters}
+
+As presented in the introduction, Section~\ref{subsec-ot-imaging}, for certain applications in imaging such as texture mixing or color normalization, it may be useful to compute the barycenter distribution of a set of input distributions. Until now we focused on the computation of the mapping between two given distributions, now we are interested in finding a new distribution in-between two or more distributions. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\paragraph{Asymmetric regularized OT metric}
+
+To simplify the optimization process, we consider the asymmetric version of the regularized OT energy~\eqref{eq-symm-reg-energy}. We maintain one data set as a reference, let say $X$, by taking into account all its points ($k_X=K_X=1$) and only perform regularization with respect to its own graph, i.e. $\la_Y=0$. Thus, we simplify our expression into the following asymmetric distance: 
+\eql{\label{eq-assym}
+	D(\mu_X,\mu_Y)=\umin{\Sig \in \Dd_k}
+	E(\Sigma) = \dotp{\Cost{X}{Y}}{\Sigma} + 
+	\lambda \regul{G_X \De_{X,Y}(\Sig)} 
+} 
+\eq{
+	\qwhereq \Dd_k=
+	\enscond{\Sig \in [0,1]^{N \times N} }{ \Sig   \U  = 1, \; \Sig^* \U \leq k \U }.
+}
+Note that $\Matr_{\kappa}=\Dd_k$ for $\kappa=(1,1,0,k)$. In general, $D$ is not a distance, since it is not symmetric and one can have $D(\mu_X,\mu_Y)=0$ while having $\mu_X \neq \mu_Y$ (which is crucial to allow relaxing of mass conservation condition).  
+
+\paragraph{Barycenter}Given a set of input clouds $(X^{[r]})_{r \in R}$ indexed by $R$ and weights $(\rho_r)_{r \in R} \in (\RR^+)^R$, we define a barycenter cloud $X$ as a local minimizer of 
+\eql{\label{eqbar}
+	\umin{X  \in \RR^{N \times d}}
+		\Ee_\rho(X)=
+		\sum_{r \in R} \rho_r \: D(\mu_{X^{[r]}},\mu_{X}).
+}
+In the case $\lambda=0$ and $k=1$, one recovers barycenters over the Wasserstein space, see the introduction for more details. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Block-coordinate Descent}\label{algobar}
+
+The minimization of~\eqref{eqbar} can be performed by doing a joint minimization on both the barycenter cloud $X$ and a set of matrices $\Sigma^{[r]} \in \Dd_k$ 
+\eql{\label{eq-barycenter-min}
+	\min_{ X, (\Sig^{[r]})_{r \in R} 
+	} 
+	\sum_{r \in R} \rho_r \left(
+		\dotp{ \Cost{X^{[r]}}{X} }{\Sigma^{[r]}} + 
+		\lambda \regul{ G_{X^{[r]}} (X^{[r]} - \Sig^{[r]} X) } \right).
+}
+This is a non-convex optimization problem. Fortunately, it is separately convex with respect to each of its variables $X$ and $( \Sig^{[r]} )_{r \in R}$, so one can use the block coordinate descent scheme. The block coordinate descent method consists in optimizing a given energy by iteratively minimizing with respect to each of its variables, in our case $X$ and  $( \Sig^{[r]} )_{r \in R}$.
+
+
+%%%%%%%%%
+\paragraph{Update $\Sigma^{[r]}$}
+
+This corresponds to performing in parallel $|R|$ independent relaxed regularized OT. Fixing $X$, one solves independently for each $\Sig^{[r]}$ the convex problem
+\eql{\label{eq-barycenter-min-Si}
+	\umin{\Sig^{[r]} \in \Dd_k }
+		\dotp{ \Cost{X^{[r]}}{X} }{\Sigma^{[r]}} + 
+		\lambda \regul{ G_{X^{[r]}} (X^{[r]} - \Sig^{[r]} X) }.
+}
+For $(p,q)=(2,2)$ or $(p,q)=(1,1)$ this minimization can be solved using the algorithms detailed in Section~\ref{secalgosymm}.
+
+
+%%%%%%%%%
+\paragraph{Update $X$} 
+
+Then, one solves for $X$ the following convex optimization problem
+\eql{\label{eq-barycenter-min-X}
+	\umin{X \in \RR^{N \times d} }
+	\Hh(X) = 
+	\sum_{r \in R} \rho_r \pa{
+		\dotp{ \Cost{X^{[r]}}{X} }{\Sigma^{[r]}} + 
+		\lambda \regul{ G_{X^{[r]}} (X^{[r]} - \Sig^{[r]} X) }
+	}.
+}	
+
+%%%%%%%%%
+\paragraph{Update $X$: Sobolev regularization} \label{algobarysobolev}
+
+The minimization of~\eqref{eq-barycenter-min-X} when $p=q=2$ is an unconstrained quadratic problem, whose solution is obtained solving the following symmetric linear system
+\eql{\label{eq-bar-l2}
+	\sum_{r \in R} \rho_r \left( \Sig^{[r]} - \la \Sig^{[r]*} G_{X^{[r]}}^* G_{X^{[r]}} \right) X = \sum_{r \in R} \rho_r \left( \Sig^{[r]*} X^{[r]} - \la \Sig^{[r]*} G_{X^{[r]}}^* G_{X^{[r]}} X^{[r]} \right) ,
+}
+which corresponds to solving $\nabla \Hh(X) =0$. The solution to this symmetric linear system can be computed using for instance the conjugate gradient algorithm.
+
+%%%%%%%%%
+\paragraph{Update $X$: Anisotropic TV regularization}
+
+When $(p,q)=(1,1)$, \eqref{eq-barycenter-min-X} is a linear program which can be solved using for instance interior point solvers~\cite{Nesterov-Nemirovsky-Book}. An alternative option, that we detail here, is to use first order proximal splitting schemes, that are well tailored for such highly structured problems.  We propose here to use the primal-dual splitting scheme developed in~\cite{Chambolle11}.
+
+The problem~\eqref{eq-barycenter-min-X} can be re-casted as a minimization of the form 
+\eql{\label{eq-bar-l1}
+\begin{aligned} 
+	& \umin{X \in \RR^{N \times d}}  & & F(K(X)) + H(X) \\ 
+	& \qwhereq & &
+	\choice{
+	K(X) = \{ B_r X \}_{r \in R}, \\ 
+	K^*(\{U_r\}_{r \in R}) = \sum_{r \in R} B^*_r U_r \\
+	F(\{U_r\}_{r \in R}) = \la \sum_{r \in R} \rho_r \|G_{X^{[r]}} X^{[r]} - U_r \|_1 \\
+	H(X) =  \sum_{r \in R} \rho_r \dotp{ \Cost{X^{[r]} }{X}}{\Sig^{[r]}}
+	}
+\end{aligned}
+}
+where $B_r = G_{X^{[r]}} \Sig^{[r]}$.  Let us now recall that the proximal operator of a function $F$ is defined as 
+\eq{ 
+	\Prox_{\ga F}(X) = \uargmin{\tilde X} \frac{1}{2}\norm{X-\tilde X}^2 + \ga F(\tilde X),
+}
+and being able to compute the proximal mapping of $F$ is equivalent to being able to compute the proximal mapping of the Legendre-Fenchel dual $F^*$ of $F$, thanks to Moreau's identity
+\eq{
+	X = \Prox_{\ga F^*}(X) + \ga \Prox_{F/\ga}(X/\ga).
+}
+Then, the primal-dual algorithm of~\cite{Chambolle11} to minimize $F \circ K + H$ reads
+\begin{align}\label{eq-pd-bary}
+	\nonumber \La^{k+1} &= \Prox_{\mu F^*}( \La^k + \mu K(\tilde X^k), \\
+	 X^{k+1} &= \Prox_{\tau H}(  X^k-\tau K^*(\La^{k+1}) ), \\
+	\nonumber \tilde X^{k+1} &= X^{k+1} + \theta (X^{k+1} - X^k) ,
+\end{align}
+with $\theta \in (0,1]$ and where 
+\begin{align*}
+\Prox_{\tau F}(U) &=\sum_{r \in R} G^{[r]} \Sig^{[r]} X^{[r]} + S_\tau(U^{[r]} - G^{[r]} \Sig^{[r]} X^{[r]}) \\
+\Prox_{\tau H}(Y) &= \left( \Id+ \tau \sum_{r \in R}  \rho_r \Sig^{[r]}  \right)^{-1} \left(Y + \tau \sum_{r \in R} \rho_r \Sig^{[r]*} X^{[r]} \right)
+\end{align*}
+where $S_\tau$ is the soft thresholding function, defined as
+\eq{
+	\foralls i=1,\ldots,N, \quad
+	S_\tau(U)_i =  \max\left(0,1- \frac{\tau}{\norm{U_i}}  \right)U_i.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Algorithm}
+
+The algorithm starts by some initial point set $X^{(0)}$, which is typically chosen to be equal to $X^{[r]}$ where $r$ corresponds to the maximum value of $\rho_r$. It then constructs iterates $(X^{(\ell)})_{\ell}$ and $( \Sigma_{i,j}^{[r],(\ell)} )_r$ by solving respectively~\eqref{eq-barycenter-min-Si} and~\eqref{eq-barycenter-min-X}. This is detailed in Algorithm~\ref{algo-block-barycenters}. 
+
+
+\begin{algorithm}[ht!]
+\caption{Regularized and relaxed OT barycenter}
+\label{algo-block-barycenters}
+\Require Point sets $(X^{[r]})_{r \in R}$, weights $(\rho_r)_{r \in R}$, initialization $X^{(0)}$.
+
+\Ensure Barycenter point set $X^{(\ell)}$, computed for $\ell$ large enough.
+
+\begin{enumerate}
+	\algostep{Initialization} Set $\ell=0$.
+	\algostep{Update of $\Sigma^{[r]}$} For each $r \in R$, compute $\Sigma^{[r],(\ell+1)}$ by solving~\eqref{eq-barycenter-min-Si} \\
+		 where $X=X^{(\ell)}$ is fixed, using the algorithms detailed in Section~\ref{secalgosymm}.
+	\algostep{Update of $X$} Compute $X^{(\ell+1)}$ by solving~\eqref{eq-barycenter-min-X} where $\Sigma^{[r]} = \Sigma^{[r],(\ell+1)}$ \\
+			are fixed.
+			If $(p,q)=(2,2)$ solve \eqref{eq-bar-l2}, if $(p,q)=(1,1)$, use the algorithm~\eqref{eq-pd-bary}.
+	\algostep{Convergence} While not converged, set $\ell \leftarrow \ell+1$ and go back to 2.
+\end{enumerate}
+\end{algorithm}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Convergence}
+
+
+The block coordinate descent methods are known to converge for smooth and differentiable energies~\cite{tseng-proximal}. The following theorem ensures the convergence of the proposed algorithm in the case of the Sobolev regularization. For the anisotropic regularization, one cannot ensure the convergence to stationary points, although in practice, we always observe it in our numerical tests.
+
+\begin{thm}
+	When $(p,q)=(2,2)$, the iterates $X^{(\ell)}$ of the algorithm are bounded and hence admit converging sub-sequences.
+	The energies $\Ee_\rho(X^{(\ell)})$ (with  $\Ee_\rho$ defined in~(\ref{eqbar}))are decaying and converging to $\tilde{\Ee}$.
+	 All converging sub-sequences converge to stationary points of $\Ee_\rho$ having the same energy $\tilde{\Ee}$.
+\end{thm}
+
+\begin{proof}
+	By construction, the energy $\Ee_\rho(X^{(\ell)})$ is decaying and positive, hence converging.  The algorithm minimizes~\eqref{eq-barycenter-min}, which reads
+	\eq{
+		\umin{ \Sigma^{[r]} \in \Dd_k, X } 
+		\bar \Ee( (\Sigma^{[r]})_r, X )
+		= \sum_{i,j,r}  \rho_r \norm{X_i^{[r]} - X_i }^2 \Sigma_{i,j}^{[r]}
+		+ \la J_{2,2}\pa{ G_{X^{[r]}} (X^{[r]} - \Sigma^{[r]} X) }.
+	}
+
+	Since $\Sigma^{[r]} \in \Dd_k$ which is a bounded set, the iterates $( \Sigma_{i,j}^{[r],(\ell)} )_r$ produced by the algorithm are bounded and hence they admit converging sub-sequences.
+	
+	For any iteration index $\ell$, one has
+	\eql{\label{eq-proof-cv-1}
+		\sum_{i,j,r} \rho_r \norm{X_i^{[r]} - X_j^{(\ell)} }^2 \Sigma_{i,j}^{[r],(\ell)} 
+		\leq \bar \Ee( (\Sigma^{[r],(\ell)})_r, X^{(\ell)} ) 
+		\leq \Ee_\rho(X^{(0)})
+	}
+	where $( \Sigma_{i,j}^{[r],(\ell)} )_r$ are the matrices obtained at the previous iteration of the method. We let $r$ be any index such that $\rho_r>0$. For any $j$ we denote  $\ga_i = \Sigma_{i,j}^{[r],(\ell)}$ (we ignore dependency with $(j,r,\ell)$ for ease of notations) that satisfy $\sum_i \ga_i=1$  and define the barycenter 	
+	\eq{
+		\bar X_j = \sum_i \ga_i X_i^{[r]}
+	}
+	which is a point in the convex hull of the $(X_i^{[r]})_i$, and is hence bounded independently of $j$ and $\ell$.
+	
+	Equation~\eqref{eq-proof-cv-1} implies
+	\eq{
+		\sum_{i} \ga_i \norm{X_i^{[r]} - X_j^{(\ell)} }^2 
+		\leq \frac{\Ee_\rho(X^{(0)})}{\rho_r}
+	}
+	By convexity of the function $x \in \RR^d \mapsto \norm{ X_j^{(\ell)} - x }^2$, one has
+	\eq{		
+		\norm{ X_j^{(\ell)} - \bar X_j }^2 
+		\leq
+		\sum_{i} \ga_i \norm{X_j^{(\ell)} - X_i^{[r]} }^2  \leq \frac{\Ee_\rho(X^{(0)})}{\rho_r}
+	}	
+	This shows that the iterates $X^{(\ell)}$ of the algorithm are bounded, and hence admit converging sub-sequences.
+		
+	
+	Given that the energy $\bar \Ee$ is convex with respect to the variables $(\Sigma^{[r]})_{r \in R}$ and $X$ (although not jointly convex) and the non convex terms $J_{2,2}( G_{X^{[r]}} (X^{[r]} - \Sigma^{[r]} X) )$ that mixes the variables is $C^1$ with Lipschitz gradient, one can apply the Theorem 4.1 of~\cite{tseng-proximal}, which shows that any converging sub-sequence converges to a stationary point of $\bar\Ee_\rho$.   
+\end{proof}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,104 @@
+\documentclass[final]{siamltex}
+
+
+\usepackage{hyperref} %BUG if put after
+\usepackage{url}
+
+
+\usepackage[english]{babel}
+
+\usepackage{amsmath,amssymb} % define this before the line numbering.
+\usepackage{xcolor}
+\usepackage{gpeyre}
+\usepackage{array}% http://ctan.org/pkg/array
+\usepackage{rotating}
+\usepackage{graphicx}
+
+
+\DeclareGraphicsExtensions{.png,.pdf,.eps,.jpg} 
+\graphicspath{{./images/}}
+
+
+
+
+\hypersetup{  
+   bookmarks=true,
+   backref=true,
+   pagebackref=false,
+   colorlinks=true,
+   linkcolor=blue,
+   citecolor=red,
+   urlcolor=blue,
+   pdftitle={Regularized Optimal Transport},
+   pdfauthor={S. Ferradans et al.},
+   pdfsubject={Regularized Optimal Transport}
+}
+
+
+% vector with one
+\newcommand{\U}{\mathbb{I}}
+\newcommand{\vU}{{\mathcal I}}
+% permutation set
+\newcommand{\Perm}{\Pp}
+\newcommand{\Bin}{\Bb}
+% convexficiation of this set
+\newcommand{\Matr}{\Ss}
+% regularity penalty (L1, L1-L2, L2)
+\newcommand{\regul}[1]{J_{p,q}(#1)}
+
+% cost matrix (depends on the point set)
+\newcommand{\cost}{C}
+\newcommand{\Cost}[2]{ \cost_{#1,#2} }
+
+% todo list
+\newcommand{\todo}[1]{\textbf{TODO:} \textit{#1}}
+
+
+
+\title{Regularized Discrete Optimal Transport}
+
+
+\author{Sira Ferradans\footnotemark[1] 
+		\and
+		Nicolas Papadakis\footnotemark[2]	
+		\and~\\ 
+        Gabriel Peyr\'e\footnotemark[1] 
+        \and 
+        Jean-Fran\c{c}ois~Aujol\footnotemark[2] \ \footnotemark[3]
+        }
+
+\begin{document}
+
+
+\maketitle
+
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\footnotetext[1]{CEREMADE, Universit\'e Paris-Dauphine, Place du Marechal De Lattre De Tassigny, 75775 PARIS CEDEX 16, FRANCE.}
+\footnotetext[2]{IMB, UMR 5251, Universit\'e Bordeaux 1, 351 cours de la Lib\'eration F-33405 TALENCE, France}
+\footnotetext[3]{Member of Institut Universitaire de France.}
+
+
+
+\input{sections/sec-intro}
+\input{sections/sec-transport}
+\input{sections/sec-relaxed}
+\input{sections/sec-regularized}
+\input{sections/sec-applications}
+\input{sections/sec-barycenters}
+\input{sections/sec-application-bary}
+\input{sections/sec-conclusion}
+
+\section*{Acknowledgements}
+The authors would like to thank Julien Rabin for advises on color transfer, stimulating discussions and comparison results. 
+S. Ferradans and G. Peyr\'e have been supported by the European Research Council (ERC project SIGMA-Vision) and the French National Research Agency (project NatImages).
+ J-F. Aujol and N. Papadakis have carried out this study in the frame of “the Investments for the future” Programme IdEx Bordeaux – CPU (ANR-10-IDEX-03-02).
+N. Papadakis also acknowledges partial support from the French Agence Nationale de la Recherche (ANR, Project TOMMI) under reference ANR-11-BS01-014-01.
+
+%\label{app:perComponent}
+
+\bibliographystyle{siam}
+\bibliography{refs}
+\end{document}
+

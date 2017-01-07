@@ -1,0 +1,230 @@
+\begin{thebibliography}{10}
+
+\bibitem{Carlier_wasserstein_barycenter}
+{\sc M.~Agueh and G.~Carlier}, {\em Barycenters in the wasserstein space}, SIAM
+  Journal on Mathematical Analysis, 43 (2011), pp.~904--924.
+
+\bibitem{Almohamad-graph-match}
+{\sc H.~A. Almohamad and S.~O. Duffuaa}, {\em A linear programming approach for
+  the weighted graph matching problem}, IEEE Transactions on Pattern Analysis
+  and Machine Intelligence, 15 (1993), pp.~522--525.
+
+\bibitem{Amestoy09}
+{\sc R.~Palma Amestoy, E.~Provenzi, M.~Bertalm\'{\i}o, and V.~Caselles}, {\em A
+  perceptually inspired variational framework for color enhancement}, IEEE
+  Transactions on Pattern Analysis and Machine Intelligence, 31 (2009),
+  pp.~458--474.
+
+\bibitem{Belongie-graph-match}
+{\sc S.~Belongie, J.~Malik, and J.~Puzicha}, {\em Shape matching and object
+  recognition using shape contexts}, IEEE Transactions on Pattern Analysis and
+  Machine Intelligence, 24 (2002), pp.~509--522.
+
+\bibitem{Benamou00}
+{\sc J.-D. Benamou and Y.~Brenier}, {\em A computational fluid mechanics
+  solution of the {M}onge-{K}antorovich mass transfer problem}, Numerische
+  Mathematik, 84 (2000), pp.~375--393.
+
+\bibitem{Bertsekas1988}
+{\sc D.P. Bertsekas}, {\em The auction algorithm: A distributed relaxation
+  method for the assignment problem}, Annals of Operations Research, 14 (1988),
+  pp.~105--123.
+
+\bibitem{Bonneel-displacement}
+{\sc N.~Bonneel, M.~{van de Panne}, S.~Paris, and W.~Heidrich}, {\em
+  Displacement interpolation using lagrangian mass transport}, ACM Transactions
+  on Graphics (Proceedings of SIGGRAPH Asia 2011), 30 (2011).
+
+\bibitem{Chambolle11}
+{\sc A.~Chambolle and T.~Pock}, {\em A first-order primal-dual algorithm for
+  convex problems with applications to imaging}, Journal of Mathematical
+  Imaging and Vision, 40 (2011), pp.~120--145.
+
+\bibitem{Csink98}
+{\sc L.~Csink, D.~Paulus, U.~Ahlrichs, and B.~Heigl}, {\em Color normalization
+  and object localization}, in In Rehrmann, 1998, pp.~49--55.
+
+\bibitem{Dantzig-Book}
+{\sc G.~B. Dantzig}, {\em Linear Programming and Extensions}, Princeton
+  University Press, Princeton, NJ, 1963.
+
+\bibitem{Delon04}
+{\sc J.~Delon}, {\em Midway image equalization}, Journal of Mathematical
+  Imaging and Vision, 21 (2004), pp.~119--134.
+
+\bibitem{Delon:2006}
+{\sc J.~Delon}, {\em Movie and video scale-time equalization application to
+  flicker reduction}, IEEE Transactions on Image Processing, 15 (2006),
+  pp.~241--248.
+
+\bibitem{elmoataz-graph}
+{\sc A.~Elmoataz, O.~Lezoray, and S.~Bougleux}, {\em Nonlocal discrete
+  regularization on weighted graphs: A framework for image and manifold
+  processing}, IEEE Transactions on Image Processing, 17 (2008),
+  pp.~1047--1060.
+
+\bibitem{2013-ssvm-regul-ot}
+{\sc S.~Ferradans, N.~Papadakis, G.~Peyr{\'e}, and J-F. Aujol}, {\em
+  Regularized discrete optimal transport}, in Scale Space and Variational
+  Methods in Computer Vision, SSVM'13, 2013, pp.~428--439.
+
+\bibitem{2013-ssvm-mixing}
+{\sc S.~Ferradans, G-S. Xia, G.~Peyr{\'e}, and J-F. Aujol}, {\em Static and
+  dynamic texture mixing using optimal transport}, in Scale Space and
+  Variational Methods in Computer Vision, SSVM'13, 2013, pp.~137--148.
+
+\bibitem{gangbo1998optimal}
+{\sc W.~Gangbo and A.~{\'S}wi\c{e}ch}, {\em Optimal maps for the
+  multidimensional {M}onge-{K}antorovich problem}, Communications on Pure and
+  Applied Mathematics, 51 (1998), pp.~23--45.
+
+\bibitem{guilboa07}
+{\sc G.~Gilboa and S.~Osher}, {\em Nonlocal linear image regularization and
+  supervised segmentation}, SIAM Multiscale Modeling and Simulation, 6 (2007),
+  pp.~595---630.
+
+\bibitem{Gonzalez:2001}
+{\sc R.~C. Gonzalez and R.~E. Woods}, {\em Digital Image Processing},
+  Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 2nd~ed., 2001.
+
+\bibitem{Kuhn-hungarian}
+{\sc {H. W. Kuhn}}, {\em The {Hungarian} method for the assignment problem},
+  Naval Research Logistic Quarter, 2 (1955), pp.~83--97.
+
+\bibitem{haker-ijcv}
+{\sc S.~Haker, L.~Zhu, A.~Tannenbaum, and S.~Angenent}, {\em Optimal mass
+  transport for registration and warping}, International Journal of Computer
+  Vision, 60 (2004), pp.~225--240.
+
+\bibitem{Kantorovitch-OT}
+{\sc L.~Kantorovitch}, {\em On the translocation of masses}, Management
+  Science, 5 (1958), pp.~1--4.
+
+\bibitem{Land:71}
+{\sc E.~H. Land and J.~J. McCann}, {\em Lightness and retinex theory}, Journal
+  of the Optical Society of America, 61 (1971), pp.~1--11.
+
+\bibitem{Lloyd57}
+{\sc S.P. Lloyd}, {\em Least squares quantization in {PCM}}, IEEE Transactions
+  on Information Theory, IT-20, 28 (1982), pp.~129--137.
+
+\bibitem{louet-regularizaton-1d}
+{\sc J.~Louet and F.~Santambrogio}, {\em A sharp inequality for transport maps
+  in via approximation}, Applied Mathematics Letters, 25 (2012), pp.~648 --
+  653.
+
+\bibitem{mccann1997convexity}
+{\sc R.J. McCann}, {\em A convexity principle for interacting gases}, Advances
+  in Mathematics, 128 (1997), pp.~153--179.
+
+\bibitem{McCollum07}
+{\sc A.~J. McCollum and W.~F. Clocksin}, {\em Multidimensional histogram
+  equalization and modification}, in International Conference on Image Analysis
+  and Processing, ICIAP'07, 2007, pp.~659--664.
+
+\bibitem{Morovic03}
+{\sc J.~Morovic and P-L. Sun}, {\em Accurate 3d image colour histogram
+  transformation}, Pattern Recognition Letters, 24 (2003), pp.~1725--1735.
+
+\bibitem{Nesterov-Nemirovsky-Book}
+{\sc Y.~E. Nesterov and A.~S. Nemirovsky}, {\em Interior Point Polynomial
+  Methods in Convex Programming~: Theory and Algorithms}, SIAM Publishing,
+  1993.
+
+\bibitem{Papadakis_ip11}
+{\sc N.~Papadakis, E.~Provenzi, and V.~Caselles}, {\em A variational model for
+  histogram transfer of color images}, IEEE Transactions on Image Processing,
+  20 (2011), pp.~1682--1695.
+
+\bibitem{Pele-ICCV}
+{\sc O.~Pele and M.~Werman}, {\em Fast and robust earth mover's distances}, in
+  IEEE International Conference on Computer Vision, ICCV'09, 2009,
+  pp.~460--467.
+
+\bibitem{Pitie07}
+{\sc F.~Piti\'{e}, A.~C. Kokaram, and R.~Dahyot}, {\em Automated colour grading
+  using colour distribution transfer}, Computer Vision and Image Understanding,
+  107 (2007), pp.~123--137.
+
+\bibitem{Rabin_ip11}
+{\sc J.~Rabin, J.~Delon, and Y.~Gousseau}, {\em Removing artefacts from color
+  and contrast modifications}, IEEE Transactions on Image Processing, 20
+  (2011), pp.~3073--3085.
+
+\bibitem{Rabin_icip11}
+{\sc J.~Rabin and G.~Peyr\'{e}}, {\em Wasserstein regularization of imaging
+  problem}, in IEEE International Conderence on Image Processing, ICIP'11,
+  2011, pp.~1541--1544.
+
+\bibitem{Rabin_ssvm11}
+{\sc J.~Rabin, G.~Peyr\'{e}, J.~Delon, and M.~Bernot}, {\em Wasserstein
+  barycenter and its application to texture mixing}, in Scale Space and
+  Variational Methods in Computer Vision, vol.~6667 of SSVM'11, 2011,
+  pp.~435--446.
+
+\bibitem{Reinhard01}
+{\sc E.~Reinhard, M.~Adhikhmin, B.~Gooch, and P.~Shirley}, {\em Color transfer
+  between images}, IEEE transactions on Computer Graphics and Applications, 21
+  (2001), pp.~34 --41.
+
+\bibitem{Rubner98}
+{\sc Y.~Rubner, C.~Tomasi, and L.J. Guibas}, {\em A metric for distributions
+  with applications to image databases}, in International Conference on
+  Computer Vision, ICCV'98, 1998, pp.~59--66.
+
+\bibitem{schellewald-ivc}
+{\sc C.~Schellewald, S.~Roth, and C.~Schn\"{o}rr}, {\em Evaluation of a convex
+  relaxation to a quadratic assignment matching approach for relational object
+  views}, Image and Vision Computing, 25 (2007), pp.~1301--1314.
+
+\bibitem{schrijver-book}
+{\sc A.~Schrijver}, {\em Theory of linear and integer programming}, John Wiley
+  \& Sons, Inc., New York, NY, USA, 1986.
+
+\bibitem{Tai-cvpr-colortransfer}
+{\sc Y-W. Tai, J.~Jia, and C-K. Tang}, {\em Local color transfer via
+  probabilistic segmentation by expectation-maximization}, in IEEE Conference
+  on Computer Vision and Pattern Recognition, vol.~1 of CVPR'05, 2005,
+  pp.~747--754.
+
+\bibitem{isomap}
+{\sc J.~B. Tenenbaum, V.~de~Silva, and J.~C. Langford}, {\em A {G}lobal
+  {G}eometric {F}ramework for {N}onlinear {D}imensionality {R}eduction},
+  Science, 290 (2000), pp.~2319--2323.
+
+\bibitem{tseng-proximal}
+{\sc P.~Tseng}, {\em Convergence of a block coordinate descent method for
+  nondifferentiable minimization}, Journal of Optimization Theory and
+  Applications, 109 (2001), pp.~475--494.
+
+\bibitem{Villani03}
+{\sc C.~Villani}, {\em Topics in Optimal Transportation}, Graduate Studies in
+  Mathematics Series, American Mathematical Society, 2003.
+
+\bibitem{WangH04}
+{\sc C-M. Wang and Y-H. Huang}, {\em A novel color transfer algorithm for image
+  sequences}, Journal of Information Science and Engineering, 20 (2004),
+  pp.~1039--1056.
+
+\bibitem{Xiao:2006}
+{\sc X.~Xiao and L.~Ma}, {\em Color transfer in correlated color space}, in ACM
+  International Conference on Virtual Reality Continuum and Its Applications,
+  VRCIA'06, 2006, pp.~305--309.
+
+\bibitem{Zaslavskiy09}
+{\sc M.~Zaslavskiy, F.~Bach, and J.-P. Vert}, {\em A path following algorithm
+  for the graph matching problem}, IEEE Transactions on Pattern Analysis and
+  Machine Intelligence, 31 (2009), pp.~2227--2242.
+
+\bibitem{Zaslavskiy-graph-match}
+{\sc M.~Zaslavskiy, F.~Bach, and J-P. Vert}, {\em Many-to-many graph matching:
+  a continuous relaxation approach}, in European Conference on Machine Learning
+  and Practice of Knowledge Discovery in Databases, ECML PKDD'10, 2010,
+  pp.~515--530.
+
+\bibitem{Yefeng-graph-match}
+{\sc Y.~Zheng and D.~Doermann}, {\em Robust point matching for nonrigid shapes
+  by preserving local neighborhood structures}, IEEE Transactions on Pattern
+  Analysis and Machine Intelligence, 28 (2006), pp.~643--649.
+
+\end{thebibliography}

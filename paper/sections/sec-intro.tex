@@ -1,0 +1,98 @@
+
+\begin{abstract}
+	This article introduces a generalization of  the discrete optimal transport, with applications to color image manipulations. This new formulation includes a relaxation of the mass conservation constraint and a regularization term.  These two features are crucial for image processing tasks, which necessitate to take into account families of multimodal histograms, with large mass variation across modes.  	 
+	 The corresponding relaxed and regularized transportation problem is the solution of a convex optimization problem. Depending on the regularization used, this minimization can be solved using standard linear programming methods or first order proximal splitting schemes.
+	 The resulting transportation plan can be used as a color transfer map, which is robust to mass variation across image color palettes. Furthermore, the regularization of the transport plan helps remove colorization artifacts due to noise amplification.
+	We also extend this framework to compute the barycenter of distributions. The barycenter is the solution of an optimization problem, which is separately convex with respect to the barycenter and the transportation plans, but not jointly convex. A block coordinate descent scheme converges to a stationary point of the energy. We show that the resulting algorithm can be used for color normalization across several images. The relaxed and regularized barycenter defines a common color palette for those images. Applying color transfer toward this average palette performs a color normalization of the input images.  
+\end{abstract}
+
+\begin{keywords}Optimal Transport, color transfer, variational regularization, convex optimization, proximal splitting, manifold learning.\end{keywords}
+
+\begin{AMS}90C25, 68U10\end{AMS}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+A large class of image processing problems involves probability densities estimated from local or global image features. In contrast to most distances from information theory (e.g. the Kullback-Leibler divergence), optimal transport (OT) takes into account the spatial location of the density modes~\cite{Villani03}. Furthermore, it also provides as a by-product a warping (the so-called transport plan) between the densities. This plan can be used to perform image modifications such as color transfer. However, an important flaw of this OT plan is that it is in general highly irregular, thus introducing unwanted artifacts in the modified images. In this article, we propose a variational formalism to relax and regularize the transport. This novel regularized OT improves visually the results for color image modifications. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Color Normalization and Color Transfer}
+
+The problem of imposing some histogram on an image has been tackled since the beginning of image processing. Classic problems are histogram equalization or histogram specification (see for example~\cite{Gonzalez:2001}). Given two images, the goal of color transfer is to impose on one of the images the histogram of the other one. An approach to color transfer based on matching statistical properties (mean and covariance) is proposed by Reinhard et al.~\cite{Reinhard01} for the $\ell\al\beta$ color space, and generalized by Xiao and Ma~\cite{Xiao:2006} to any color space. Wang and Huang~\cite{WangH04} use similar ideas to generate a sequence of the same image with a changing histogram.  Morovic and Sun~\cite{Morovic03} and Delon~\cite{Delon04} show that histogram transfer is directly related to the OT problem.
+
+A special case of color transfer is color normalization where the goal is to impose the same histogram, normally some ``average'' histogram, on a set of different images. An application for the color balancing of videos is proposed by Delon~\cite{Delon:2006} to correct flickering in old movies. In the context of canceling illumination, this problem is also known as color constancy and it has been thoroughly studied by Land and McCann who propose the Retinex theory (see~\cite{Land:71} and~\cite{Amestoy09} for a modern formulation). Canceling the illumination of a scene is an important component in the computer vision pipeline, and it is regularly used as a preprocessing to register/compare several images taken with different cameras or illumination conditions, as a preprocessing before registration, see~\cite{Csink98} for instance. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Optimal Transport and Imaging}
+\label{subsec-ot-imaging}
+
+%%
+\paragraph{Discrete optimal transport}
+
+The discrete OT is the solution of a convex linear program originally introduced by Kantorovitch~\cite{Kantorovitch-OT}. It corresponds to the convex relaxation of a combinatorial problem when the densities are sums of the same number of Dirac masses. This relaxation is tight (i.e. the solution of the linear program is an assignment) and it extends the notion of OT to an arbitrary sum of weighted Diracs, see for instance~\cite{Villani03}. Although there exist dedicated linear solvers (transportation simplex~\cite{Dantzig-Book}) and combinatorial algorithms (such as the Hungarian~\cite{Kuhn-hungarian} and auction algorithms~\cite{Bertsekas1988}), computing OT is still a challenging task for densities composed of thousands of Dirac masses. 
+
+%%
+\paragraph{Optimal transport and its associated distance}
+
+The OT distance (also known as the Wasserstein distance or the Earth Mover distance) has been shown to produce state of the art results for the comparison of statistical descriptors, see for instance~\cite{Rubner98}. Image retrieval performance as well as computational time are both greatly improved by using non-convex cost functions, see~\cite{Pele-ICCV}. 
+
+Another line of applications of OT makes use of the transport plan to warp an input density onto another. OT is strongly connected to fluid dynamic partial differential equations~\cite{Benamou00}. These connections have been used to perform image registration~\cite{haker-ijcv}.  The estimation of the transport plan is also an interesting way of tackling  the challenging problem of color transfer between images, see for instance~\cite{Reinhard01,Morovic03,McCollum07}. For grayscale images, the usual histogram equalization algorithm corresponds to the application of the 1-D OT plan to an image, see for instance~\cite{Delon04}. It thus makes sense to consider the 3-D OT as a mathematically-sound way to perform color palette transfer, see for instance~\cite{Pitie07} for an approximate transport method. When doing so, it is important to cope with variations in the modes of the color palette across images, which makes the mass conservation constraint of OT problematic. A workaround is to consider parametric densities such as Gaussian mixtures and defines ad-hoc matching between the components of the mixture, see~\cite{Tai-cvpr-colortransfer}. In our work, we tackle this issue by defining a novel notion of OT well adapted to color manipulation. 
+
+%%
+\paragraph{Optimal transport barycenter}
+
+It is natural to extend the classical barycenter of points to barycenter of densities by minimizing a weighted sum of OT distances toward a family of input distributions. In the special case of two input distributions, this corresponds to the celebrated displacement interpolation defined by McCann~\cite{mccann1997convexity}. Existence and uniqueness of such a barycenter is proved by Agueh and Carlier~\cite{Carlier_wasserstein_barycenter}, which also show the equivalence with the multi-marginal transportation problem introduced by Gangbo and {\'S}wi\c{e}ch~\cite{gangbo1998optimal}.  Displacement interpolation (i.e. barycenter between a pair of distributions) is used by Bonneel et al.~\cite{Bonneel-displacement} for computer graphics applications.  Rabin et al.~\cite{Rabin_ssvm11} apply this OT barycenter for texture synthesis and mixing. The image mixing is achieved by computing OT barycenters of empirical distributions of wavelet coefficients.  A similar approach is proposed by Ferradans et al.~\cite{2013-ssvm-mixing} for static and dynamic texture mixing using Gaussian distributions. \\
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Regularized and relaxed transport}
+\label{subsec-regul-intro}
+
+
+% Another kind of artifacts can nevertheless be still observed with these last approaches. Pixels that were originally close in the color space can be very different after the color transfer. Generalizing the Optimal Transport framework with regularity priors on the transport map would therefore be a good solution in this case. Few theoretical results exist on the regularity of the transport map \cite{}, and no satisfying non combinatorial algorithms have been proposed up to our knowledge. 
+
+
+%%
+\paragraph{Removing transport artifacts}
+
+The OT map between complicated densities is usually irregular. Using directly this transport plan to perform color transfer creates artifacts and amplifies the noise in flat areas of the image. Since the transfer is computed over the 3-D color space, it does not take into account the pixel-domain regularity of the image. The visual quality of the transfer is thus improved by denoising the resulting transport using a pixel-domain regularization either as a post-processing~\cite{Papadakis_ip11} or by solving a variational problem~\cite{Papadakis_ip11,Rabin_icip11}.
+
+
+% The perfect transfer of color is not satisfying in real applications and one may generally observe outliers in the final images. Indeed, as the transfer is realized in the color space, it does not take into account the fact that coherent colors should be transferred to neighbor pixels. As a consequence, methods have been proposed to consider the spatial nature of images and model some regularity priors on the image domain. In \cite{Papadakis_ip11}, the color transfer is formalized as an energy minimization problem in the image domain, which allows directly incorporating spatial regularization of the colors. The energy then involves the $L_2$ distance between cumulated color histograms instead of relying on the Wasserstein distance. The post-regularization of the  image color has also been proposed in \cite{Rabin_ip11}, where the color transfer is realized with the Sliced Wasserstein Distance.
+
+
+%%
+\paragraph{Transport regularization}
+
+A more theoretically grounded way to tackle the problem of colorization artifacts should use directly a regularized OT. This corresponds to adding a regularization penalty to the OT energy. This however leads to difficult non-convex variational problems, that have not yet been solved in a satisfying manner either theoretically or numerically. The only theoretical contribution we are aware of is the recent work of Louet and Santambrogio~\cite{louet-regularizaton-1d}. They show that in 1-D the (un-regularized) OT is also the solution of the Sobolev regularized transport problem.
+%%
+
+%%
+\paragraph{Graph regularization and matching}
+
+For imaging applications, we use regularizations built on top of a graph structure connecting neighboring points in the input density. This follows ideas introduced in manifold learning~\cite{isomap}, that have been applied to various image processing problems, see for instance~\cite{elmoataz-graph}. Using graphs enables us to design regularizations that are adapted to the geometry of the input density, that often has a manifold-like structure. 
+
+This idea of graph-based regularization of OT can be interpreted as a soft version of the graph matching problem, which is at the heart of many computer vision tasks, see~\cite{Belongie-graph-match,Yefeng-graph-match}. Graph matching is a quadratic assignment problem, known to be NP-hard to solve.  Similarly to our regularized OT formulation, several convex approximations have been proposed, including for instance linear programming~\cite{Almohamad-graph-match} and SDP programming~\cite{schellewald-ivc}. 
+
+%%
+\paragraph{Transport relaxation}
+
+The result of Louet and Santambrogio~\cite{louet-regularizaton-1d} is deceiving from the applications point of view, since it shows that, in 1-D, no regularization is possible if one  maintains a 1:1 assignment between the two densities. This is our first motivation for introducing a relaxed transport which is not a bijection between the densities.  Another (more practical) motivation is that relaxation is crucial to solve imaging problems such as color transfer. Indeed, the color distributions of natural images are multi-modals. An ideal color transfer should match the modes together. This cannot be achieved by classical OT because these modes often do not have the same mass. A typical example is for two images with strong foreground and background dominant colors (thus having bi-modal densities) but where the proportion of pixels in foreground and background are not the same. Such simple examples cannot be handled properly with OT. Allowing a controlled variation of the matched densities thus requires an appropriate relaxation of the mass conservation constraint. Mass conservation relaxation is related to the relaxation of the bijectivity constraint in graph matching, for which a convex formulation is proposed in~\cite{Zaslavskiy-graph-match}. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Contributions}
+
+In this paper, we generalize the discrete formulation of OT to tackle the two major flaws that we just mentioned: i) the lack of regularity of the transport and ii) the need for a relaxed matching between densities. Our main contribution is the integration of these two properties in a unified variational formulation to compute a regular transport map between two empirical densities. The corresponding optimization problem is convex and can be solved using standard convex optimization procedures. We propose two optimization algorithms adapted to the different class of regularizations. We apply this framework to the color transfer problem and obtain results that are comparable to the state of the art. 
+Our second contribution takes advantage of the proposed regularized OT energy to compute the barycenter of several empirical densities. 
+We develop a block-coordinate descent method that converges to a stationary point of the non-convex barycenter energy. We show an application
+ to color normalization between a set of photographs. Numerical results show the relevance of these approaches to imaging problems. The matlab code to reproduce the figures of this article is available online\footnote{\url{https://github.com/siraferradans/ColorTransfer}}.
+
+Part of this work was presented at the conference SSVM 2013~\cite{2013-ssvm-regul-ot}. 
+
+
